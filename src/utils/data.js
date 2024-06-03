@@ -1,7 +1,58 @@
+import Plant1 from "../../public/assets/plant1.png"
+import Plant2 from "../../public/assets/plant2.png";
+import Plant3 from "../../public/assets/plant3.png";
+import Plant4 from "../../public/assets/plant4.png";
+import Plant5 from "../../public/assets/plant5.png";
+import Plant6 from "../../public/assets/plant6.png";
+import Plant7 from "../../public/assets/plant7.png";
+import Plant8 from "../../public/assets/plant8.png";
+import Plant9 from "../../public/assets/plant9.png";
+import Plant10 from "../../public/assets/plant10.png";
+import Plant11 from "../../public/assets/plant11.png";
+import Plant12 from "../../public/assets/plant12.png";
+import Plant13 from "../../public/assets/plant13.png";
+import Plant14 from "../../public/assets/plant14.png";
+import Plant15 from "../../public/assets/plant15.png";
+import Plant16 from "../../public/assets/plant16.png";
+import Plant17 from "../../public/assets/plant17.png";
+import Plant18 from "../../public/assets/plant18.png";
+import Plant19 from "../../public/assets/plant19.png";
+import Plant20 from "../../public/assets/plant20.png";
+import Plant21 from "../../public/assets/plant21.png";
+import Plant22 from "../../public/assets/plant22.png";
+import Plant23 from "../../public/assets/plant23.png";
+import Plant24 from "../../public/assets/plant24.png";
+import Plant25 from "../../public/assets/plant25.png";
+import Plant26 from "../../public/assets/plant26.png";
+import Plant27 from "../../public/assets/plant27.png";
+import Plant28 from "../../public/assets/plant28.png";
+import Plant29 from "../../public/assets/plant29.png";
+import Plant30 from "../../public/assets/plant30.png";
+import Plant31 from "../../public/assets/plant31.png";
+import Plant32 from "../../public/assets/plant32.png";
+import Plant33 from "../../public/assets/plant33.png";
+import Plant34 from "../../public/assets/plant34.png";
+import Plant35 from "../../public/assets/plant35.png";
+import Plant36 from "../../public/assets/plant36.png";
+import Plant37 from "../../public/assets/plant37.png";
+import Plant38 from "../../public/assets/plant38.png";
+import Plant39 from "../../public/assets/plant39.png";
+import Plant40 from "../../public/assets/plant40.png";
+import Plant41 from "../../public/assets/plant41.png";
+import Plant42 from "../../public/assets/plant42.png";
+import Plant43 from "../../public/assets/plant43.png";
+import Plant44 from "../../public/assets/plant44.png";
+import Plant45 from "../../public/assets/plant45.png";
+import Plant46 from "../../public/assets/plant46.png";
+import Plant47 from "../../public/assets/plant47.png";
+import Plant48 from "../../public/assets/plant48.png";
+
+
+
 const plantsData = [
   {
     id: 1,
-    image: "../../public/assets/plant1.png",
+    image: Plant1,
     name: "Lush Greenery Delight",
     price: 24.99,
     description: "Bring the outdoors in with this delightful green plant.",
@@ -12,7 +63,7 @@ const plantsData = [
   },
   {
     id: 2,
-    image: "../../public/assets/plant2.png",
+    image: Plant2,
     name: "Colorful Blossom Marvel",
     price: 34.99,
     description: "A marvel of colorful blossoms to brighten up any room.",
@@ -23,7 +74,7 @@ const plantsData = [
   },
   {
     id: 3,
-    image: "../../public/assets/plant3.png",
+    image: Plant3,
     name: "Spiky Elegance Cactus",
     price: 12.99,
     description: "An elegant cactus with spiky charm for a unique touch.",
@@ -34,7 +85,7 @@ const plantsData = [
   },
   {
     id: 4,
-    image: "../../public/assets/plant4.png",
+    image: Plant4,
     name: "Golden Sunflower Patch",
     price: 19.99,
     description: "A patch of golden sunflowers to bring warmth to your space.",
@@ -45,7 +96,7 @@ const plantsData = [
   },
   {
     id: 5,
-    image: "../../public/assets/plant5.png",
+    image: Plant5,
     name: "Tiny Terrarium Wonderland",
     price: 27.99,
     description:
@@ -57,7 +108,7 @@ const plantsData = [
   },
   {
     id: 6,
-    image: "../../public/assets/plant6.png",
+    image: Plant6,
     name: "Majestic Fern Forest",
     price: 29.99,
     description: "Transform your space into a majestic fern forest retreat.",
@@ -68,7 +119,7 @@ const plantsData = [
   },
   {
     id: 7,
-    image: "../../public/assets/plant7.png",
+    image: Plant7,
     name: "Bamboo Zen Garden",
     price: 39.99,
     description:
@@ -80,7 +131,7 @@ const plantsData = [
   },
   {
     id: 8,
-    image: "../../public/assets/plant8.png",
+    image: Plant8,
     name: "Scented Lavender Fields",
     price: 18.99,
     description: "Bring the soothing aroma of lavender fields to your home.",
@@ -91,7 +142,7 @@ const plantsData = [
   },
   {
     id: 9,
-    image: "../../public/assets/plant9.png",
+    image: Plant9,
     name: "Ruby Red Rose Elegance",
     price: 32.99,
     description:
@@ -103,7 +154,7 @@ const plantsData = [
   },
   {
     id: 10,
-    image: "../../public/assets/plant10.png",
+    image: Plant10,
     name: "Succulent Surprise Set",
     price: 22.99,
     description:
@@ -115,7 +166,7 @@ const plantsData = [
   },
   {
     id: 11,
-    image: "../../public/assets/plant11.png",
+    image: Plant11,
     name: "Eternal Eucalyptus Bliss",
     price: 26.99,
     description:
@@ -127,7 +178,7 @@ const plantsData = [
   },
   {
     id: 12,
-    image: "../../public/assets/plant12.png",
+    image: Plant12,
     name: "Floating Lotus Pond",
     price: 36.99,
     description:
@@ -139,7 +190,7 @@ const plantsData = [
   },
   {
     id: 13,
-    image: "../../public/assets/plant13.png",
+    image: Plant13,
     name: "Royal Blue Hydrangea Bouquet",
     price: 17.99,
     description:
@@ -151,7 +202,7 @@ const plantsData = [
   },
   {
     id: 14,
-    image: "../../public/assets/plant14.png",
+    image: Plant14,
     name: "Daisy Delightful Garden",
     price: 23.99,
     description: "Cultivate delight with a garden featuring cheerful daisies.",
@@ -162,7 +213,7 @@ const plantsData = [
   },
   {
     id: 15,
-    image: "../../public/assets/plant15.png",
+    image: Plant15,
     name: "Golden Pothos Cascade",
     price: 28.99,
     description:
@@ -174,7 +225,7 @@ const plantsData = [
   },
   {
     id: 16,
-    image: "../../public/assets/plant16.png",
+    image: Plant16,
     name: "Succulent Paradise Pack",
     price: 21.99,
     description: "Create your own succulent paradise with this assorted pack.",
@@ -185,7 +236,7 @@ const plantsData = [
   },
   {
     id: 17,
-    image: "../../public/assets/plant17.png",
+    image: Plant17,
     name: "Bonsai Serenity Grove",
     price: 42.99,
     description:
@@ -197,7 +248,7 @@ const plantsData = [
   },
   {
     id: 18,
-    image: "../../public/assets/plant18.png",
+    image: Plant18,
     name: "Sun-Kissed Marigold Patch",
     price: 15.99,
     description:
@@ -209,7 +260,7 @@ const plantsData = [
   },
   {
     id: 19,
-    image: "../../public/assets/plant19.png",
+    image: Plant19,
     name: "Cactus Garden Oasis",
     price: 31.99,
     description:
@@ -221,7 +272,7 @@ const plantsData = [
   },
   {
     id: 20,
-    image: "../../public/assets/plant20.png",
+    image: Plant20,
     name: "Zen Bamboo Fountain",
     price: 48.99,
     description:
@@ -233,7 +284,7 @@ const plantsData = [
   },
   {
     id: 21,
-    image: "../../public/assets/plant21.png",
+    image: Plant21,
     name: "Enchanting Lavender Bouquet",
     price: 19.99,
     description:
@@ -245,7 +296,7 @@ const plantsData = [
   },
   {
     id: 22,
-    image: "../../public/assets/plant22.png",
+    image: Plant22,
     name: "Rainbow Tulip Array",
     price: 27.99,
     description:
@@ -257,7 +308,7 @@ const plantsData = [
   },
   {
     id: 23,
-    image: "../../public/assets/plant23.png",
+    image: Plant23,
     name: "Cascading Ivy Elegance",
     price: 34.99,
     description:
@@ -269,7 +320,7 @@ const plantsData = [
   },
   {
     id: 24,
-    image: "../../public/assets/plant24.png",
+    image: Plant24,
     name: "Golden Zinnia Meadow",
     price: 22.99,
     description:
@@ -281,7 +332,7 @@ const plantsData = [
   },
   {
     id: 25,
-    image: "../../public/assets/plant25.png",
+    image: Plant25,
     name: "Succulent Symphony Pack",
     price: 31.99,
     description:
@@ -293,7 +344,7 @@ const plantsData = [
   },
   {
     id: 26,
-    image: "../../public/assets/plant26.png",
+    image: Plant26,
     name: "Jasmine Scented Garden",
     price: 38.99,
     description:
@@ -305,7 +356,7 @@ const plantsData = [
   },
   {
     id: 27,
-    image: "../../public/assets/plant27.png",
+    image: Plant27,
     name: "Peace Lily Harmony",
     price: 29.99,
     description: "Achieve harmony with the timeless beauty of a peace lily.",
@@ -316,7 +367,7 @@ const plantsData = [
   },
   {
     id: 28,
-    image: "../../public/assets/plant28.png",
+    image: Plant28,
     name: "Autumn Maple Bonsai",
     price: 45.99,
     description:
@@ -328,7 +379,7 @@ const plantsData = [
   },
   {
     id: 29,
-    image: "../../public/assets/plant29.png",
+    image: Plant29,
     name: "Fairy Garden Retreat",
     price: 26.99,
     description:
@@ -340,7 +391,7 @@ const plantsData = [
   },
   {
     id: 30,
-    image: "../../public/assets/plant30.png",
+    image: Plant30,
     name: "Eternal Rose Elegance",
     price: 48.99,
     description:
@@ -352,7 +403,7 @@ const plantsData = [
   },
   {
     id: 31,
-    image: "../../public/assets/plant31.png",
+    image: Plant31,
     name: "Moonlit Cactus Garden",
     price: 36.99,
     description:
@@ -364,7 +415,7 @@ const plantsData = [
   },
   {
     id: 32,
-    image: "../../public/assets/plant32.png",
+    image: Plant32,
     name: "Cherry Blossom Bliss",
     price: 24.99,
     description:
@@ -376,7 +427,7 @@ const plantsData = [
   },
   {
     id: 33,
-    image: "../../public/assets/plant33.png",
+    image: Plant33,
     name: "Crystal Clear Terrarium",
     price: 29.99,
     description:
@@ -388,7 +439,7 @@ const plantsData = [
   },
   {
     id: 34,
-    image: "../../public/assets/plant34.png",
+    image: Plant34,
     name: "Majestic Orchid Ensemble",
     price: 39.99,
     description:
@@ -400,7 +451,7 @@ const plantsData = [
   },
   {
     id: 35,
-    image: "../../public/assets/plant35.png",
+    image: Plant35,
     name: "Lush Monstera Paradise",
     price: 42.99,
     description:
@@ -412,7 +463,7 @@ const plantsData = [
   },
   {
     id: 36,
-    image: "../../public/assets/plant36.png",
+    image: Plant36,
     name: "Radiant Rosemary Bush",
     price: 18.99,
     description:
@@ -424,7 +475,7 @@ const plantsData = [
   },
   {
     id: 37,
-    image: "../../public/assets/plant37.png",
+    image: Plant37,
     name: "Aloe Vera Oasis",
     price: 26.99,
     description:
@@ -436,7 +487,7 @@ const plantsData = [
   },
   {
     id: 38,
-    image: "../../public/assets/plant38.png",
+    image: Plant38,
     name: "Sunflower Symphony",
     price: 33.99,
     description:
@@ -448,7 +499,7 @@ const plantsData = [
   },
   {
     id: 39,
-    image: "../../public/assets/plant39.png",
+    image: Plant39,
     name: "Fern Forest Retreat",
     price: 28.99,
     description:
@@ -460,7 +511,7 @@ const plantsData = [
   },
   {
     id: 40,
-    image: "../../public/assets/plant40.png",
+    image: Plant40,
     name: "Soothing Lavender Fields",
     price: 23.99,
     description:
@@ -472,7 +523,7 @@ const plantsData = [
   },
   {
     id: 41,
-    image: "../../public/assets/plant41.png",
+    image: Plant41,
     name: "Mystical Bonsai Wonderland",
     price: 45.99,
     description:
@@ -484,7 +535,7 @@ const plantsData = [
   },
   {
     id: 42,
-    image: "../../public/assets/plant42.png",
+    image: Plant42,
     name: "Daisy Delight Bouquet",
     price: 19.99,
     description:
@@ -496,7 +547,7 @@ const plantsData = [
   },
   {
     id: 43,
-    image: "../../public/assets/plant43.png",
+    image: Plant43,
     name: "Floating Air Plant Ensemble",
     price: 32.99,
     description:
@@ -508,7 +559,7 @@ const plantsData = [
   },
   {
     id: 44,
-    image: "../../public/assets/plant44.png",
+    image: Plant44,
     name: "Sapphire Succulent Sphere",
     price: 27.99,
     description:
@@ -520,7 +571,7 @@ const plantsData = [
   },
   {
     id: 45,
-    image: "../../public/assets/plant45.png",
+    image: Plant45,
     name: "Whimsical Moss Garden",
     price: 36.99,
     description: "Create a whimsical oasis with a mesmerizing moss garden.",
@@ -531,7 +582,7 @@ const plantsData = [
   },
   {
     id: 46,
-    image: "../../public/assets/plant46.png",
+    image: Plant46,
     name: "Emerald Fern Elegance",
     price: 23.99,
     description:
@@ -543,7 +594,7 @@ const plantsData = [
   },
   {
     id: 47,
-    image: "../../public/assets/plant47.png",
+    image: Plant47,
     name: "Harvest Herb Haven",
     price: 29.99,
     description:
@@ -555,7 +606,7 @@ const plantsData = [
   },
   {
     id: 48,
-    image: "../../public/assets/plant48.png",
+    image: Plant48,
     name: "Ruby Red Rose Bouquet",
     price: 38.99,
     description: "Express love with a radiant ruby red rose bouquet.",
@@ -566,7 +617,7 @@ const plantsData = [
   },
   {
     id: 49,
-    image: "../../public/assets/plant49.png",
+    image: Plant40,
     name: "Tranquil Bamboo Grove",
     price: 42.99,
     description:
@@ -578,7 +629,7 @@ const plantsData = [
   },
   {
     id: 50,
-    image: "../../public/assets/plant50.png",
+    image: Plant41,
     name: "Charming Bonsai Retreat",
     price: 31.99,
     description:
