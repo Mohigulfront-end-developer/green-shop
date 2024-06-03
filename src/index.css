@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.swiper-button-prev {
+  display: none;
+}
+
+.swiper-button-next {
+  display: none;
+}
+
+
+a{
+  &.active{
+    /* padding-bottom: 10px; */
+    border-bottom: 2px solid green;
+  }
+}
