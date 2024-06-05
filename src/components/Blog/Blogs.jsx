@@ -11,7 +11,7 @@ import Blog4 from "../../../public/assets/blog4.jpg";
 const Blogs = () => {
   return (
     <div>
-      <div className="container mx-auto ">
+      <div className="lg:container mx-auto ">
         <h2 className="mt-20 text-center text-[30px] font-bold">Our Blogs</h2>
         <p className="text-center text-[20px] text-gray-500">
           We are an online plant shop offering a wide range of cheap and trendy

@@ -8,15 +8,16 @@ import {
 import { DeleteOutline } from "@mui/icons-material";
 import Basket from "./Basket";
 import { Link, NavLink } from "react-router-dom";
+import CarouselProduct from "../productDetails/CarouselProduct";
 
 const CartPage = (product, state, className) => {
   const { cart } = useSelector((cart) => cart.cart);
   const dispatch = useDispatch();
-  console.log(cart, "cartpage for");
+  // console.log(cart, "cartpage for");
 
   const handleRemove = (id) => {
     dispatch(removeFromCart(id));
-    console.log('hi');
+    // console.log('hi');
   };
   return (
     <div className="container mx-auto px-4">
@@ -87,8 +88,11 @@ const CartPage = (product, state, className) => {
         <Basket />
       </div>
       <div className="mt-[100px] border-b-2 border-[#46A35880]">
-        <h3 className="font-bold text-green-600 py-2">You may be interested in</h3>
+        <h3 className="py-2 font-bold text-green-600">
+          You may be interested in
+        </h3>
       </div>
+      <CarouselProduct/>
     </div>
   );
 };

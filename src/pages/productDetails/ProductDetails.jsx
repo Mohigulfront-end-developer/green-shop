@@ -2,6 +2,7 @@ import React from 'react'
 import { Link, NavLink } from 'react-router-dom';
 import ProductDetailsHeader from './ProductDetailsHeader';
 import CarouselProduct from './CarouselProduct';
+import ProductDesc from './ProductDesc';
 
 const ProductDetails = () => {
   return (
@@ -10,8 +11,13 @@ const ProductDetails = () => {
         <Link to={"/"}>Home</Link>/<NavLink to={"/shop"}>Shop</NavLink>
       </div>
       <ProductDetailsHeader />
+      <ProductDesc/>
+      <div className="border-b-2 border-green-300 mt-[100px]">
+        <h3 className='py-2 font-bold text-[22px]'>Related Products</h3>
+      </div>
       <CarouselProduct/>
     </div>
+    
   );
 }
 
