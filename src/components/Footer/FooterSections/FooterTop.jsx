@@ -2,11 +2,11 @@ import React from 'react'
 import Img1 from "../../../../public/assets/plant.png"
 import Img2 from "../../../../public/assets/cactus.png";
 import Img3 from "../../../../public/assets/teapot.png";
-import Container from "../../Container"
+// import Container from "../../Container"
 
 const FooterTop = () => {
   return (
-    <Container>
+    <div className='container mx-auto px-4'>
       <div className="mt-[100px] bg-[#FBFBFB] py-5 flex justify-between items-center">
         <div className="px-8 border-r-2 border-tail-300 ">
           <img src={Img1} alt="plant logo" />
@@ -57,7 +57,7 @@ const FooterTop = () => {
           </p>
         </div>
       </div>
-    </Container>
+    </div>
   );
 }
 

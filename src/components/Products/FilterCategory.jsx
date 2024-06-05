@@ -1,51 +1,127 @@
-import React from 'react'
+import React, { useEffect, useState } from "react";
 import Slider from "@mui/material/Slider";
-import SaleImg from "../../../public/assets/super-sale.png"
+import SaleImg from "../../../public/assets/super-sale.png";
+import Data from "../../utils/data";
+import { useDispatch, useSelector } from "react-redux";
 
 function valuetext(value) {
   return `${value}$`;
 }
 
+const FilterCategory = ({ setCount, setShow }) => {
+  const [value, setValue] = React.useState([20, 37]);
 
-const FilterCategory = () => {
-   const [value, setValue] = React.useState([20, 37]);
+  const handleChange = (event, newValue) => {
+    setValue(newValue);
+  };
 
-   const handleChange = (event, newValue) => {
-     setValue(newValue);
-   };
+  const [categories, setCategories] = useState([]);
+
+  const listUniqueCategories = () => {
+    const uniqueCategories = [
+      ...new Set(Data.map((plants) => plants.category)),
+    ];
+    setCategories(uniqueCategories);
+    // console.log(uniqueCategories);
+  };
+
+  useEffect(() => {
+    listUniqueCategories();
+  }, []);
+
+  const dispatch = useDispatch();
+  const selectedCategory = useSelector((state) => state.category.category);
+
+  const HandleClick = (e) => {
+    setCount([e.target.textContent]);
+    setShow(false);
+  };
+
   return (
-    <div className="container mx-auto px-4">
-      <div className="w-[320px] py-[10px] px-10 bg-[#FBFBFB] rounded-md">
-        <h3 className="font-semibold text-[20px] pb-[10px]">Categories</h3>
+    <div className="">
+      <div className="container mx-auto w-[320px] rounded-md bg-[#FBFBFB] px-10 py-[10px]">
+        <h3 className="pb-[10px] text-[20px] font-semibold">Categories</h3>
         <div className="mb-[20px]">
-          <li className="pb-[10px] font-normal text-[17px] list-none hover:text-green-600">
+          <li
+            className="cursor-pointer list-none pb-[10px] text-[17px] font-normal hover:text-green-600"
+            onClick={HandleClick}
+          >
             House Plants
           </li>
-          <li className="pb-[10px] font-normal text-[17px] list-none hover:text-green-600">
+          <li
+            className="cursor-pointer list-none pb-[10px] text-[17px] font-normal hover:text-green-600"
+            onClick={HandleClick}
+          >
             Potter Plants
           </li>
-          <li className="pb-[10px] font-normal text-[17px] list-none hover:text-green-600">
+          <li
+            className="cursor-pointer list-none pb-[10px] text-[17px] font-normal hover:text-green-600"
+            onClick={HandleClick}
+          >
             Seeds
           </li>
-          <li className="pb-[10px] font-normal text-[17px] list-none hover:text-green-600">
+          <li
+            className="cursor-pointer list-none pb-[10px] text-[17px] font-normal hover:text-green-600"
+            onClick={HandleClick}
+          >
             Small Plants
           </li>
-          <li className="pb-[10px] font-normal text-[17px] list-none hover:text-green-600">
+          <li
+            className="cursor-pointer list-none pb-[10px] text-[17px] font-normal hover:text-green-600"
+            onClick={HandleClick}
+          >
             Big Plants
           </li>
-          <li className="pb-[10px] font-normal text-[17px] list-none hover:text-green-600">
+          <li
+            className="cursor-pointer list-none pb-[10px] text-[17px] font-normal hover:text-green-600"
+            onClick={HandleClick}
+          >
             Succulents
           </li>
-          <li className="pb-[10px] font-normal text-[17px] list-none hover:text-green-600">
+          <li
+            className="cursor-pointer list-none pb-[10px] text-[17px] font-normal hover:text-green-600"
+            onClick={HandleClick}
+          >
             Trerrariums
           </li>
-          <li className="pb-[10px] font-normal text-[17px] list-none hover:text-green-600">
+          <li
+            className="cursor-pointer list-none pb-[10px] text-[17px] font-normal hover:text-green-600"
+            onClick={HandleClick}
+          >
             Gardening
           </li>
-          <li className="pb-[10px] font-normal text-[17px] list-none hover:text-green-600">
+          <li
+            className="cursor-pointer list-none pb-[10px] text-[17px] font-normal hover:text-green-600"
+            onClick={HandleClick}
+          >
             Accessories
           </li>
         </div>
+        {/* <div className="my-5 flex flex-col gap-2">
+          {categories.map((category, index) => {
+            return (
+              <div
+                className={`border-b-[2px] ${
+                  selectedCategory === category
+                    ? "border-b-[#EA7C69] text-black"
+                    : " border-b-[#fff0]"
+                } categoryFilter pb-3 `}
+                key={index}
+              >
+                <button
+                  onClick={() => dispatch(setCategories(category))}
+                  className={` py-2  font-bold  ${
+                    selectedCategory === category
+                      ? "text-[#EA7C69]"
+                      : "rounded-lg hover:border-b-[#EA7C69] text-[black]"
+                  }`}
+                >
+                  {category.slice(0, 30)}
+                </button>
+              </div>
+            );
+          })}
+        </div> */}
         <div className="">
           <h3>Price Range</h3>
           <Slider
@@ -59,29 +135,29 @@ const FilterCategory = () => {
             <span>
               Price: <span className="text-green-600">$39 - $1230</span>{" "}
             </span>
-            <button className="w-[100px] text-white bg-green-600 px-4 py-2 rounded-md">
+            <button className="w-[100px] rounded-md bg-green-600 px-4 py-2 text-white">
               Filter
             </button>
           </div>
-          <h3 className="font-semibold text-[20px] mt-[25px] pb-[10px]">
+          <h3 className="mt-[25px] pb-[10px] text-[20px] font-semibold">
             Size
           </h3>
           <div className="">
-            <li className="pb-[10px] font-normal text-[17px] list-none hover:text-green-600">
+            <li className="list-none pb-[10px] text-[17px] font-normal hover:text-green-600">
               Small
             </li>
-            <li className="pb-[10px] font-normal text-[17px] list-none hover:text-green-600">
+            <li className="list-none pb-[10px] text-[17px] font-normal hover:text-green-600">
               Medium
             </li>
-            <li className="pb-[10px] font-normal text-[17px] list-none hover:text-green-600">
+            <li className="list-none pb-[10px] text-[17px] font-normal hover:text-green-600">
               Large
             </li>
           </div>
         </div>
       </div>
-      <img src={SaleImg} alt="" className="w-[320px]" />
+      <img src={SaleImg} alt="" className="mx-auto w-[320px] container" />
     </div>
   );
-}
+};
 
-export default FilterCategory
+export default FilterCategory;

@@ -1,5 +1,5 @@
 import React from 'react'
-import Container from "../../Container"
+// import Container from "../../Container"
 import LocationOnOutlinedIcon from "@mui/icons-material/LocationOnOutlined";
 import EmailOutlinedIcon from "@mui/icons-material/EmailOutlined";
 import WifiCalling3OutlinedIcon from "@mui/icons-material/WifiCalling3Outlined";
@@ -8,7 +8,7 @@ import Logo from "../../../../public/assets/logo.svg"
 const FooterMid = () => {
   return (
     <div className="">
-      <Container>
+      <div className='container mx-auto px-4'>
         <div className="py-10  px-5 flex gap-20 items-center bg-green-50">
           <div className="">
             <img src={Logo} alt="" />
@@ -28,7 +28,7 @@ const FooterMid = () => {
             <p>+88 01911 717 490</p>
           </div>
         </div>
-      </Container>
+      </div>
     </div>
   );
 }

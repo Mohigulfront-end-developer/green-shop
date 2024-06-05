@@ -1,24 +1,51 @@
 import { useDispatch } from "react-redux";
 import { addToCart } from "../redux/slices/CartSlice";
+import {
+  FavoriteBorder,
+  Search,
+  ShoppingCartOutlined,
+} from "@mui/icons-material";
 
-const Cart = ({ id, img, name, price }) => {
+const Cart = ({ id, image, name, price }) => {
   const dispatch = useDispatch();
 
   return (
-    <div
-      onClick={() => {
-        dispatch(addToCart({ id, img, name, price, qty: 1 }));
-      }}
-      className="font-normal w-[300px] h-[330px] p-4 my-[30px] flex items-center flex-col rounded-lg gap-2 cursor-pointer"
-    >
+    <div className="my-[40px] flex h-[330px] w-[278px] cursor-pointer flex-col items-center gap-2 rounded-lg py-2 font-normal">
       <img
-        src={img}
+        src={image}
         alt=""
-        className="bg-[#FBFBFB] w-[258px] h-[300px]   hover:scale-110 cursor-grab transition-all duration-500 ease-in-out "
+        className="h-[300px] w-[255px] bg-[#FBFBFB] transition-all duration-500 ease-in-out hover:scale-110 hover:cursor-grab hover:border-t-2 hover:border-t-green-600"
       />
-      <div className=" flex gap-2 flex-col ">
-        <h2 className="text-[20px] mt-[10px]">{name.slice(0, 30)}</h2>
-        <p className="text-green-600 text-[20px]">${price}</p>
+      <div className="flex flex-col gap-2">
+        <h2 className="mt-[10px] text-[20px]">{name.slice(0, 30)}</h2>
+        <div className="flex items-center gap-16">
+          <p className="text-[20px] text-green-600">${price}</p>
+          <div className="flex items-center justify-center gap-2">
+            <button
+              className="p-2"
+              onClick={() => {
+                dispatch(
+                  addToCart({
+                    id,
+                    image,
+                    name,
+                    price,
+                    qty: 1,
+                    
+                  }),
+                );
+              }}
+            >
+              <ShoppingCartOutlined className="h-[25px] w-[25px] text-green-600 transition-all duration-500 ease-in-out hover:scale-125 hover:cursor-grab" />
+            </button>
+            <button>
+              <FavoriteBorder className="h-[25px] w-[25px] text-rose-600 transition-all duration-500 ease-in-out hover:scale-125 hover:cursor-grab" />
+            </button>
+            <button>
+              <Search className="h-[25px] w-[25px] text-gray-700 transition-all duration-500 ease-in-out hover:scale-125 hover:cursor-grab" />
+            </button>
+          </div>
+        </div>
       </div>
     </div>
   );

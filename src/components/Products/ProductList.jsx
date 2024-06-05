@@ -1,17 +1,17 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import Cart from "./Cart";
 import Data from "../../utils/data";
 import { useSelector } from "react-redux";
 import Pagination from "@mui/material/Pagination";
 import Stack from "@mui/material/Stack";
 
-const ProductList = () => {
+const ProductList = ({ count, show }) => {
   const category = useSelector((state) => state.category.category);
   const search = useSelector((state) => state.search.search);
 
   // Pagination state
   const [currentPage, setCurrentPage] = useState(1);
-  const itemsPerPage = 9; // Changed to 9 items per page
+  const itemsPerPage = 12; 
 
   // Filtered data based on category and search
   const filteredData = Data.filter((plants) => {
@@ -36,19 +36,34 @@ const ProductList = () => {
   };
 
   return (
-    <div className="mx-5">
-      <div className="grid grid-cols-3 gap-4 mb-6">
-        {currentItems.map((plants) => (
-          <Cart
-            key={plants.id}
-            id={plants.id}
-            name={plants.name}
-            price={plants.price}
-            desc={plants.description}
-            rating={plants.rating}
-            img={plants.image}
-          />
-        ))}
+    <div className="">
+      <div className="grid grid-cols-4 gap-4 mb-6">
+        {show
+          ? currentItems.map((plants) => (
+              <Cart
+                key={plants.id}
+                id={plants.id}
+                name={plants.name}
+                price={plants.price}
+                desc={plants.description}
+                rating={plants.rating}
+                image={plants.image}
+              />
+            ))
+          : currentItems.map(
+              (plants) =>
+                plants.category[0] == count[0] && (
+                  <Cart
+                    key={plants.id}
+                    id={plants.id}
+                    name={plants.name}
+                    price={plants.price}
+                    desc={plants.description}
+                    rating={plants.rating}
+                    image={plants.image}
+                  />
+                )
+            )}
       </div>
       <div className="flex justify-end my-[100px]">
         <Stack spacing={1}>

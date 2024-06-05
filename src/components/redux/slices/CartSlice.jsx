@@ -12,7 +12,9 @@ const CartSlice = createSlice({
       );
       if (existingItem) {
         state.cart = state.cart.map((item) =>
-          item.id === action.payload.id ? { ...item, qty: item.qty + 1 } : item
+          item.id === action.payload.id
+            ? { ...item, qty: item.qty + 1, totalPrice: item.qty * item.price }
+            : item
         );
       } else {
         state.cart.push(action.payload);

@@ -4,27 +4,33 @@ import ProductList from './ProductList'
 import Img1 from "../../../public/assets/plant14.png"
 import Img2 from "../../../public/assets/plant12.png";
 import EastIcon from "@mui/icons-material/East";
+import { useState } from "react";
 
 
 const Products = () => {
+  const [count , setCount] = useState([])
+  const [show , setShow] = useState(true)
+  
+
+  console.log(count);
   return (
-    <div className="mb-[50px]">
-      <div className="container mx-auto px-4 flex  mt-[20px]">
-        <div className=" grid grid-cols-1">
-          <FilterCategory />
+    <div className="container mx-auto px-4 my-[30px]">
+      <div className="flex  mt-[20px]">
+        <div className=" grid grid-cols-1 mr-[40px]">
+          <FilterCategory setCount={setCount} setShow={setShow} />
         </div>
         <div className="">
           <div className="">
             <Sort />
           </div>
           <div className="">
-            <ProductList />
+            <ProductList count={count} show={show} />
           </div>
         </div>
       </div>
-      <div className="container mx-auto px-4">
-        <div className="flex justify-between items-center gap-5">
-          <div className="p-5 w-[700px] h-[250px] bg-[#FBFBFB] flex justify-between items-center rounded-md">
+      <div className="container mx-auto ">
+        <div className="flex justify-between items-center gap-16">
+          <div className="p-5 w-[800px] h-[250px] bg-[#FBFBFB] flex justify-between items-center rounded-md">
             <img src={Img1} alt="" className="mt-[-70px]  " />
             <div className="text-right">
               <h2 className="font-bold text-[23px]">
@@ -43,7 +49,7 @@ const Products = () => {
               </div>
             </div>
           </div>
-          <div className="w-[700px] h-[256px] bg-[#FBFBFB] flex justify-between items-center p-5 rounded-md">
+          <div className="w-[800px] h-[256px] bg-[#FBFBFB] flex justify-between items-center p-5 rounded-md">
             <img src={Img2} alt="" className="mt-[-70px]" />
             <div className="text-right">
               <h2 className="font-bold text-[23px]">

@@ -1,7 +1,7 @@
 import Plant1 from "../../public/assets/plant1.png"
 import Plant2 from "../../public/assets/plant2.png";
 import Plant3 from "../../public/assets/plant3.png";
-import Plant4 from "../../public/assets/plant4.png";
+import Plant4 from "../../public/assets/plant10.png";
 import Plant5 from "../../public/assets/plant5.png";
 import Plant6 from "../../public/assets/plant6.png";
 import Plant7 from "../../public/assets/plant7.png";
@@ -10,7 +10,7 @@ import Plant9 from "../../public/assets/plant9.png";
 import Plant10 from "../../public/assets/plant10.png";
 import Plant11 from "../../public/assets/plant11.png";
 import Plant12 from "../../public/assets/plant12.png";
-import Plant13 from "../../public/assets/plant13.png";
+import Plant13 from "../../public/assets/plant1.png";
 import Plant14 from "../../public/assets/plant14.png";
 import Plant15 from "../../public/assets/plant15.png";
 import Plant16 from "../../public/assets/plant16.png";
@@ -19,7 +19,7 @@ import Plant18 from "../../public/assets/plant18.png";
 import Plant19 from "../../public/assets/plant19.png";
 import Plant20 from "../../public/assets/plant20.png";
 import Plant21 from "../../public/assets/plant21.png";
-import Plant22 from "../../public/assets/plant22.png";
+import Plant22 from "../../public/assets/plant19.png";
 import Plant23 from "../../public/assets/plant23.png";
 import Plant24 from "../../public/assets/plant24.png";
 import Plant25 from "../../public/assets/plant25.png";
@@ -28,7 +28,7 @@ import Plant27 from "../../public/assets/plant27.png";
 import Plant28 from "../../public/assets/plant28.png";
 import Plant29 from "../../public/assets/plant29.png";
 import Plant30 from "../../public/assets/plant30.png";
-import Plant31 from "../../public/assets/plant31.png";
+import Plant31 from "../../public/assets/plant8.png";
 import Plant32 from "../../public/assets/plant32.png";
 import Plant33 from "../../public/assets/plant33.png";
 import Plant34 from "../../public/assets/plant34.png";
@@ -37,7 +37,7 @@ import Plant36 from "../../public/assets/plant36.png";
 import Plant37 from "../../public/assets/plant37.png";
 import Plant38 from "../../public/assets/plant38.png";
 import Plant39 from "../../public/assets/plant39.png";
-import Plant40 from "../../public/assets/plant40.png";
+import Plant40 from "../../public/assets/plant8.png";
 import Plant41 from "../../public/assets/plant41.png";
 import Plant42 from "../../public/assets/plant42.png";
 import Plant43 from "../../public/assets/plant43.png";
@@ -57,7 +57,7 @@ const plantsData = [
     price: 24.99,
     description: "Bring the outdoors in with this delightful green plant.",
     sizes: ["S", "M", "L"],
-    categories: ["house-plants"],
+    category: ["House Plants"],
     tags: ["Home", "Garden", "Plants"],
     quantity: 1,
   },
@@ -68,7 +68,7 @@ const plantsData = [
     price: 34.99,
     description: "A marvel of colorful blossoms to brighten up any room.",
     sizes: ["M", "L"],
-    categories: ["house-plants", "potter-plants"],
+    category: ["Potter Plants"],
     tags: ["Home", "Garden", "Plants"],
     quantity: 1,
   },
@@ -79,7 +79,7 @@ const plantsData = [
     price: 12.99,
     description: "An elegant cactus with spiky charm for a unique touch.",
     sizes: ["S"],
-    categories: ["succulents"],
+    category: ["Succulents"],
     tags: ["Home", "Garden", "Plants"],
     quantity: 1,
   },
@@ -90,7 +90,7 @@ const plantsData = [
     price: 19.99,
     description: "A patch of golden sunflowers to bring warmth to your space.",
     sizes: ["S", "M"],
-    categories: ["seeds"],
+    category: ["Seeds"],
     tags: ["Home", "Garden", "Plants"],
     quantity: 1,
   },
@@ -102,7 +102,7 @@ const plantsData = [
     description:
       "Create your own miniature wonderland with this tiny terrarium.",
     sizes: ["S"],
-    categories: ["terrariums"],
+    category: ["Trerrariums"],
     tags: ["Home", "Garden", "Plants"],
     quantity: 1,
   },
@@ -113,7 +113,7 @@ const plantsData = [
     price: 29.99,
     description: "Transform your space into a majestic fern forest retreat.",
     sizes: ["M", "L"],
-    categories: ["big-plants"],
+    category: ["Big Plants"],
     tags: ["Home", "Garden", "Plants"],
     quantity: 1,
   },
@@ -125,7 +125,7 @@ const plantsData = [
     description:
       "Find tranquility with a Zen garden featuring bamboo elements.",
     sizes: ["L"],
-    categories: ["gardening", "accessories"],
+    category: ["Gardening"],
     tags: ["Home", "Garden", "Plants"],
     quantity: 1,
   },
@@ -136,7 +136,7 @@ const plantsData = [
     price: 18.99,
     description: "Bring the soothing aroma of lavender fields to your home.",
     sizes: ["S"],
-    categories: ["small-plants"],
+    category: ["Small Plants"],
     tags: ["Home", "Garden", "Plants"],
     quantity: 1,
   },
@@ -148,7 +148,7 @@ const plantsData = [
     description:
       "An elegant arrangement of ruby red roses for a touch of romance.",
     sizes: ["M"],
-    categories: ["potter-plants"],
+    category: ["Potter Plants"],
     tags: ["Home", "Garden", "Plants"],
     quantity: 1,
   },
@@ -160,7 +160,7 @@ const plantsData = [
     description:
       "Discover the surprise of a set featuring assorted succulents.",
     sizes: ["S"],
-    categories: ["succulents", "terrariums"],
+    category: ["Succulents"],
     tags: ["Home", "Garden", "Plants"],
     quantity: 1,
   },
@@ -172,7 +172,7 @@ const plantsData = [
     description:
       "Experience eternal bliss with the soothing aroma of eucalyptus.",
     sizes: ["S", "M"],
-    categories: ["house-plants", "big-plants"],
+    category: ["House Plants"],
     tags: ["Home", "Garden", "Plants"],
     quantity: 1,
   },
@@ -184,7 +184,7 @@ const plantsData = [
     description:
       "Create a serene atmosphere with a floating lotus pond arrangement.",
     sizes: ["L"],
-    categories: ["gardening", "accessories"],
+    category: ["Accessories"],
     tags: ["Home", "Garden", "Plants"],
     quantity: 1,
   },
@@ -196,7 +196,7 @@ const plantsData = [
     description:
       "A bouquet of royal blue hydrangeas to add a touch of sophistication.",
     sizes: ["M"],
-    categories: ["potter-plants"],
+    category: ["Potter Plants"],
     tags: ["Home", "Garden", "Plants"],
     quantity: 1,
   },
@@ -207,7 +207,7 @@ const plantsData = [
     price: 23.99,
     description: "Cultivate delight with a garden featuring cheerful daisies.",
     sizes: ["S"],
-    categories: ["seeds", "small-plants"],
+    category: ["Seeds"],
     tags: ["Home", "Garden", "Plants"],
     quantity: 1,
   },
@@ -219,7 +219,7 @@ const plantsData = [
     description:
       "Let the golden pothos cascade for an elegant and lush display.",
     sizes: ["M", "L"],
-    categories: ["house-plants", "big-plants"],
+    category: ["House Plants"],
     tags: ["Home", "Garden", "Plants"],
     quantity: 1,
   },
@@ -230,7 +230,7 @@ const plantsData = [
     price: 21.99,
     description: "Create your own succulent paradise with this assorted pack.",
     sizes: ["S"],
-    categories: ["succulents", "terrariums"],
+    category: ["Succulents"],
     tags: ["Home", "Garden", "Plants"],
     quantity: 1,
   },
@@ -242,7 +242,7 @@ const plantsData = [
     description:
       "Cultivate serenity with a bonsai grove that stands the test of time.",
     sizes: ["L"],
-    categories: ["gardening", "accessories"],
+    category: ["Gardening"],
     tags: ["Home", "Garden", "Plants"],
     quantity: 1,
   },
@@ -254,7 +254,7 @@ const plantsData = [
     description:
       "Enjoy the vibrant colors of a sun-kissed marigold patch in your garden.",
     sizes: ["S", "M"],
-    categories: ["seeds", "small-plants"],
+    category: ["Seeds"],
     tags: ["Home", "Garden", "Plants"],
     quantity: 1,
   },
@@ -266,7 +266,7 @@ const plantsData = [
     description:
       "Transform your space into a desert oasis with this cactus garden.",
     sizes: ["M"],
-    categories: ["succulents"],
+    category: ["Succulents"],
     tags: ["Home", "Garden", "Plants"],
     quantity: 1,
   },
@@ -278,7 +278,7 @@ const plantsData = [
     description:
       "Invite tranquility with a bamboo fountain for a Zen-inspired ambiance.",
     sizes: ["L"],
-    categories: ["gardening", "accessories"],
+    category: ["Accessories"],
     tags: ["Home", "Garden", "Plants"],
     quantity: 1,
   },
@@ -290,7 +290,7 @@ const plantsData = [
     description:
       "An enchanting bouquet of lavender for a calming and aromatic experience.",
     sizes: ["S", "M"],
-    categories: ["potter-plants"],
+    category: ["Potter Plants"],
     tags: ["Home", "Garden", "Plants"],
     quantity: 1,
   },
@@ -302,7 +302,7 @@ const plantsData = [
     description:
       "Create a burst of colors with a rainbow tulip array in your garden.",
     sizes: ["M"],
-    categories: ["seeds", "small-plants"],
+    category: ["Small Plants"],
     tags: ["Home", "Garden", "Plants"],
     quantity: 1,
   },
@@ -314,7 +314,7 @@ const plantsData = [
     description:
       "Elevate your space with cascading ivy that adds a touch of elegance.",
     sizes: ["L"],
-    categories: ["big-plants"],
+    category: ["Big Plants"],
     tags: ["Home", "Garden", "Plants"],
     quantity: 1,
   },
@@ -326,7 +326,7 @@ const plantsData = [
     description:
       "Transform your garden into a golden meadow with vibrant zinnias.",
     sizes: ["S", "M"],
-    categories: ["seeds", "small-plants"],
+    category: ["Small Plants"],
     tags: ["Home", "Garden", "Plants"],
     quantity: 1,
   },
@@ -338,7 +338,7 @@ const plantsData = [
     description:
       "Create a symphony of succulents with this harmonious assorted pack.",
     sizes: ["S"],
-    categories: ["succulents", "terrariums"],
+    category: ["Succulents"],
     tags: ["Home", "Garden", "Plants"],
     quantity: 1,
   },
@@ -350,7 +350,7 @@ const plantsData = [
     description:
       "Immerse yourself in the sweet fragrance of a jasmine-scented garden.",
     sizes: ["L"],
-    categories: ["gardening", "accessories"],
+    category: ["Gardening"],
     tags: ["Home", "Garden", "Plants"],
     quantity: 1,
   },
@@ -361,7 +361,7 @@ const plantsData = [
     price: 29.99,
     description: "Achieve harmony with the timeless beauty of a peace lily.",
     sizes: ["S", "M"],
-    categories: ["house-plants", "big-plants"],
+    category: ["House Plants"],
     tags: ["Home", "Garden", "Plants"],
     quantity: 1,
   },
@@ -373,7 +373,7 @@ const plantsData = [
     description:
       "Capture the essence of autumn with a maple bonsai in your living space.",
     sizes: ["L"],
-    categories: ["gardening", "accessories"],
+    category: ["Gardening"],
     tags: ["Home", "Garden", "Plants"],
     quantity: 1,
   },
@@ -385,7 +385,7 @@ const plantsData = [
     description:
       "Create a whimsical retreat with a fairy garden that sparks imagination.",
     sizes: ["S"],
-    categories: ["terrariums"],
+    category: ["Trerrariums"],
     tags: ["Home", "Garden", "Plants"],
     quantity: 1,
   },
@@ -397,7 +397,7 @@ const plantsData = [
     description:
       "Embrace everlasting elegance with an eternal rose arrangement.",
     sizes: ["M"],
-    categories: ["potter-plants"],
+    category: ["Potter Plants"],
     tags: ["Home", "Garden", "Plants"],
     quantity: 1,
   },
@@ -409,7 +409,7 @@ const plantsData = [
     description:
       "Transform your space into a mystical oasis with a moonlit cactus garden.",
     sizes: ["L"],
-    categories: ["succulents", "terrariums"],
+    category: ["Trerrariums"],
     tags: ["Home", "Garden", "Plants"],
     quantity: 1,
   },
@@ -421,7 +421,7 @@ const plantsData = [
     description:
       "Experience the bliss of spring with a cherry blossom arrangement.",
     sizes: ["S", "M"],
-    categories: ["potter-plants"],
+    category: ["Potter Plants"],
     tags: ["Home", "Garden", "Plants"],
     quantity: 1,
   },
@@ -433,7 +433,7 @@ const plantsData = [
     description:
       "Create a crystal clear terrarium with an assortment of miniature wonders.",
     sizes: ["S"],
-    categories: ["terrariums"],
+    category: ["Trerrariums"],
     tags: ["Home", "Garden", "Plants"],
     quantity: 1,
   },
@@ -445,7 +445,7 @@ const plantsData = [
     description:
       "Adorn your space with the majestic beauty of an orchid ensemble.",
     sizes: ["M"],
-    categories: ["house-plants", "big-plants"],
+    category: ["Big Plants"],
     tags: ["Home", "Garden", "Plants"],
     quantity: 1,
   },
@@ -457,7 +457,7 @@ const plantsData = [
     description:
       "Create a lush paradise with the iconic and vibrant monstera plant.",
     sizes: ["L"],
-    categories: ["big-plants"],
+    category: ["Big Plants"],
     tags: ["Home", "Garden", "Plants"],
     quantity: 1,
   },
@@ -469,7 +469,7 @@ const plantsData = [
     description:
       "Add a touch of radiance to your garden with a rosemary bush in full bloom.",
     sizes: ["S"],
-    categories: ["seeds", "small-plants"],
+    category: ["Seeds"],
     tags: ["Home", "Garden", "Plants"],
     quantity: 1,
   },
@@ -481,7 +481,7 @@ const plantsData = [
     description:
       "Experience the healing vibes of an aloe vera oasis in your living space.",
     sizes: ["M"],
-    categories: ["succulents"],
+    category: ["Succulents"],
     tags: ["Home", "Garden, Plants"],
     quantity: 1,
   },
@@ -493,7 +493,7 @@ const plantsData = [
     description:
       "Enjoy a symphony of sunflowers that brighten up any corner of your garden.",
     sizes: ["L"],
-    categories: ["seeds", "small-plants"],
+    category: ["Seeds"],
     tags: ["Home", "Garden", "Plants"],
     quantity: 1,
   },
@@ -505,7 +505,7 @@ const plantsData = [
     description:
       "Create a retreat with a lush fern forest that brings the outdoors indoors.",
     sizes: ["S", "M"],
-    categories: ["house-plants", "big-plants"],
+    category: ["Big Plants"],
     tags: ["Home", "Garden", "Plants"],
     quantity: 1,
   },
@@ -517,7 +517,7 @@ const plantsData = [
     description:
       "Experience tranquility with a garden featuring soothing lavender fields.",
     sizes: ["M"],
-    categories: ["gardening", "accessories"],
+    category: ["Accessories"],
     tags: ["Home", "Garden", "Plants"],
     quantity: 1,
   },
@@ -529,7 +529,7 @@ const plantsData = [
     description:
       "Step into a mystical wonderland with a captivating bonsai arrangement.",
     sizes: ["L"],
-    categories: ["gardening", "accessories"],
+    category: ["Accessories"],
     tags: ["Home", "Garden", "Plants"],
     quantity: 1,
   },
@@ -541,7 +541,7 @@ const plantsData = [
     description:
       "Delight your senses with a vibrant bouquet of cheerful daisies.",
     sizes: ["S", "M"],
-    categories: ["potter-plants"],
+    category: ["Potter Plants"],
     tags: ["Home", "Garden", "Plants"],
     quantity: 1,
   },
@@ -553,7 +553,7 @@ const plantsData = [
     description:
       "Create an ethereal atmosphere with a floating air plant ensemble.",
     sizes: ["S"],
-    categories: ["succulents", "terrariums"],
+    category: ["Trerrariums"],
     tags: ["Home", "Garden", "Plants"],
     quantity: 1,
   },
@@ -565,7 +565,7 @@ const plantsData = [
     description:
       "Adorn your space with a captivating sapphire succulent sphere.",
     sizes: ["M"],
-    categories: ["seeds", "small-plants"],
+    category: ["Seeds"],
     tags: ["Home", "Garden", "Plants"],
     quantity: 1,
   },
@@ -576,7 +576,7 @@ const plantsData = [
     price: 36.99,
     description: "Create a whimsical oasis with a mesmerizing moss garden.",
     sizes: ["L"],
-    categories: ["terrariums"],
+    category: ["Trerrariums"],
     tags: ["Home", "Garden", "Plants"],
     quantity: 1,
   },
@@ -588,7 +588,7 @@ const plantsData = [
     description:
       "Enhance your living space with the elegant beauty of emerald ferns.",
     sizes: ["S"],
-    categories: ["house-plants", "big-plants"],
+    category: ["House Plants"],
     tags: ["Home", "Garden", "Plants"],
     quantity: 1,
   },
@@ -600,7 +600,7 @@ const plantsData = [
     description:
       "Create a haven of freshness with a harvest herb garden in your kitchen.",
     sizes: ["M"],
-    categories: ["gardening", "accessories"],
+    category: ["Gardening"],
     tags: ["Home", "Garden", "Plants"],
     quantity: 1,
   },
@@ -611,7 +611,7 @@ const plantsData = [
     price: 38.99,
     description: "Express love with a radiant ruby red rose bouquet.",
     sizes: ["S"],
-    categories: ["potter-plants"],
+    category: ["Potter Plants"],
     tags: ["Home", "Garden", "Plants"],
     quantity: 1,
   },
@@ -623,7 +623,7 @@ const plantsData = [
     description:
       "Create a tranquil escape with a bamboo grove that soothes the soul.",
     sizes: ["L"],
-    categories: ["big-plants"],
+    category: ["Big Plants"],
     tags: ["Home", "Garden", "Plants"],
     quantity: 1,
   },
@@ -635,7 +635,7 @@ const plantsData = [
     description:
       "Embark on a charming retreat with a bonsai that captivates the heart.",
     sizes: ["M"],
-    categories: ["gardening", "accessories"],
+    category: ["Accessories"],
     tags: ["Home", "Garden", "Plants"],
     quantity: 1,
   },
