@@ -1,10 +1,143 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
-// import YourOrder from "./YourOrder";
-import Img1 from "../../../public/assets/plant1.png"
+import Img1 from "../../../public/assets/plant1.png";
 import Img2 from "../../../public/assets/plant2.png";
 import Img3 from "../../../public/assets/plant3.png";
 import Img4 from "../../../public/assets/acceptedPayments.png";
+import Img5 from "../../../public/assets/modallast.png";
+
+const Modal = ({ isVisible, onClose }) => {
+  if (!isVisible) return null;
+  return (
+    <div className="fixed inset-0 z-50 flex items-center justify-center bg-gray-700 bg-opacity-75">
+      <div className="h-[600px] w-[600px] rounded-lg bg-white">
+        <div className="flex flex-col items-center justify-center border-b-2 border-b-green-200 bg-green-50 py-2">
+          <img
+            src={Img5}
+            alt="Thank you message"
+            className="h-[50px] w-[50px]"
+          />
+          <h2 className="mt-[8px] text-[18px] font-semibold text-[#727272]">
+            Your order has been received
+          </h2>
+        </div>
+        <div className="container mx-auto grid grid-cols-4 border-b-2 border-b-green-200 px-5 py-2">
+          <div className="border-r-2 border-r-gray-200 pr-4">
+            <h3 className="text-[15px] text-[#727272]">Order Number</h3>
+            <p className="text-[15px] font-bold text-[#727272]">19586687</p>
+          </div>
+          <div className="border-r-2 border-r-gray-200 px-4">
+            <h3 className="text-[15px] text-[#727272]">Date</h3>
+            <p className="text-[15px] font-bold text-[#727272]">6 June, 2024</p>
+          </div>
+          <div className="border-r-2 border-r-gray-200 px-4">
+            <h3 className="text-[15px] text-[#727272]">Total</h3>
+            <p className="text-[15px] font-bold text-[#727272]">2,699.00</p>
+          </div>
+          <div className="pl-4">
+            <h3 className="text-[15px] text-[#727272]">Payment Method</h3>
+            <p className="text-[15px] font-bold text-[#727272]">
+              Cash on delivery
+            </p>
+          </div>
+        </div>
+        <div className="container mx-auto px-4 py-2">
+          <h2 className="text-[15px] font-bold text-[#3d3d3d]">
+            Order Details
+          </h2>
+        </div>
+        <div className="border-b-2 border-b-gray-200 pb-[5px]">
+          <div className="container mx-auto grid grid-cols-3 px-4">
+            <p className="text-[15px] font-medium text-[#3d3d3d]">Products</p>
+            <p className="text-[15px] font-medium text-[#3d3d3d]">Qty</p>
+            <p className="text-[15px] font-medium text-[#3d3d3d]">Subtotal</p>
+          </div>
+        </div>
+        <div className="">
+          <div className="my-2 flex items-center justify-between rounded-md bg-gray-50 px-4">
+            <img src={Img1} alt="" className="h-[50px] w-[50px]" />
+            <div className="">
+              <p className="text-[18px] font-bold text-[#3D3D3D]">
+                Barberton Daisy
+              </p>
+              <span className="py-2 text-[15px] font-normal text-[#3D3D3D]">
+                <span className="text-gray-400">SKU:</span> 1995751877966
+              </span>
+            </div>
+            <span className="text-[15px] font-normal text-[#3D3D3D]">
+              (x 2)
+            </span>
+            <span className="text-[15px] font-bold text-green-600">
+              $238.00
+            </span>
+          </div>
+          <div className="my-2 flex items-center justify-between rounded-md bg-gray-50 px-4">
+            <img src={Img2} alt="" className="h-[50px] w-[50px]" />
+            <div className="">
+              <p className="text-[18px] font-bold text-[#3D3D3D]">
+                Blushing Bromeli
+              </p>
+              <span className="py-2 text-[15px] font-normal text-[#3D3D3D]">
+                <span className="text-gray-400">SKU:</span> 19957518757065
+              </span>
+            </div>
+            <span className="text-[15px] font-normal text-[#3D3D3D]">
+              (x 6)
+            </span>
+            <span className="text-[15px] font-bold text-green-600">
+              $834.00
+            </span>
+          </div>
+          <div className="my-2 flex items-center justify-between rounded-md bg-gray-50 px-4">
+            <img src={Img3} alt="" className="h-[50px] w-[50px]" />
+            <div className="">
+              <p className="text-[18px] font-bold text-[#3D3D3D]">
+                Aluminum Plant
+              </p>
+              <span className="py-2 text-[15px] font-normal text-[#3D3D3D]">
+                <span className="text-gray-400">SKU:</span> 1995751877786
+              </span>
+            </div>
+            <span className="text-[15px] font-normal text-[#3D3D3D]">
+              (x 9)
+            </span>
+            <span className="text-[15px] font-bold text-green-600">
+              $1,611.00
+            </span>
+          </div>
+          <div className="container mx-auto mt-[10px] px-4 pb-[10px]">
+            <div className="flex items-center justify-between">
+              <p className="text-[18px] font-normal text-[#3D3D3D]">Shipping</p>
+              <h3 className="text-[18px] font-medium text-[#3D3D3D]">$16.00</h3>
+            </div>
+            <div className="flex items-center justify-between border-b-2 border-b-green-200">
+              <h3 className="text-[18px] font-semibold">Total</h3>
+              <h3 className="text-[18px] font-semibold text-green-600">
+                $2,699.00
+              </h3>
+            </div>
+          </div>
+          <div className="container mx-auto mb-[10px] px-4">
+            <p className="text-gray-500">
+              Your order is currently being processed. You will receive an order
+              confirmation email shortly with the expected delivery date for
+              your items.
+            </p>
+          </div>
+        </div>
+        <div className="flex flex-col items-center justify-center pb-4">
+          <NavLink
+            to="/cart/checkout/track1"
+            onClick={onClose}
+            className="rounded bg-green-600 px-4 py-2 text-white hover:bg-green-700"
+          >
+            Track your order
+          </NavLink>
+        </div>
+      </div>
+    </div>
+  );
+};
 
 const Checkout = () => {
   const [formData, setFormData] = useState({
@@ -21,6 +154,7 @@ const Checkout = () => {
   });
 
   const [errors, setErrors] = useState({});
+  const [isModalVisible, setIsModalVisible] = useState(false);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -59,6 +193,7 @@ const Checkout = () => {
     if (validate()) {
       // Proceed with form submission
       console.log("Form submitted:", formData);
+      setIsModalVisible(true);
     }
   };
 
@@ -69,7 +204,7 @@ const Checkout = () => {
           Home
         </NavLink>
         <span>/</span>
-        <Link to="/shop" className="hover:text-green-600">
+        <Link to="/shop/1" className="hover:text-green-600">
           Shop
         </Link>
         <span>/</span>
@@ -289,141 +424,140 @@ const Checkout = () => {
         <div className="mt-10 w-full lg:ml-10 lg:mt-0 lg:w-1/3">
           {/* <YourOrder /> */}
           <div className="">
-            <div className="container mx-auto px-4">
-              <h4 className="mb-6 text-2xl font-semibold text-gray-800">
-                Your Order
-              </h4>
-              <div className="flex items-center justify-between border-b-2 border-b-green-200 pb-4">
-                <p>Products</p>
-                <p>Subtotal</p>
-              </div>
-              <div className="my-5 flex items-center justify-between rounded-md bg-gray-50 p-4">
-                <img src={Img1} alt="" className="h-[75px] w-[75px]" />
-                <div className="">
-                  <p className="text-[20px] font-bold text-[#3D3D3D]">
-                    Barberton Daisy
-                  </p>
-                  <span className="py-2 text-[15px] font-normal text-[#3D3D3D]">
-                    <span className="text-gray-400">SKU:</span> 1995751877966
-                  </span>
-                </div>
-                <span className="text-[18px] font-normal text-[#3D3D3D]">
-                  (x 2)
-                </span>
-                <span className="text-[20px] font-bold text-green-600">
-                  $238.00
-                </span>
-              </div>
-              <div className="my-5 flex items-center justify-between rounded-md bg-gray-50 p-4">
-                <img src={Img2} alt="" className="h-[75px] w-[75px]" />
-                <div className="">
-                  <p className="text-[20px] font-bold text-[#3D3D3D]">
-                    Blushing Bromeli
-                  </p>
-                  <span className="py-2 text-[15px] font-normal text-[#3D3D3D]">
-                    <span className="text-gray-400">SKU:</span> 19957518757065
-                  </span>
-                </div>
-                <span className="text-[18px] font-normal text-[#3D3D3D]">
-                  (x 6)
-                </span>
-                <span className="text-[20px] font-bold text-green-600">
-                  $834.00
-                </span>
-              </div>
-              <div className="my-5 flex items-center justify-between rounded-md bg-gray-50 p-4">
-                <img src={Img3} alt="" className="h-[75px] w-[75px]" />
-                <div className="">
-                  <p className="text-[20px] font-bold text-[#3D3D3D]">
-                    Aluminum Plant
-                  </p>
-                  <span className="py-2 text-[15px] font-normal text-[#3D3D3D]">
-                    <span className="text-gray-400">SKU:</span> 1995751877786
-                  </span>
-                </div>
-                <span className="text-[18px] font-normal text-[#3D3D3D]">
-                  (x 9)
-                </span>
-                <span className="text-[20px] font-bold text-green-600">
-                  $1,611.00
-                </span>
-              </div>
-              <div className="mb-[50px] flex items-center justify-end">
-                <p>
-                  Have a coupon code?{" "}
-                  <span className="text-green-600">Click here</span>
+            <h4 className="mb-6 text-2xl font-semibold text-gray-800">
+              Your Order
+            </h4>
+            <div className="flex items-center justify-between border-b-2 border-b-green-200 pb-4">
+              <p>Products</p>
+              <p>Subtotal</p>
+            </div>
+            <div className="my-5 flex items-center justify-between rounded-md bg-gray-50 p-4">
+              <img src={Img1} alt="" className="h-[75px] w-[75px]" />
+              <div className="">
+                <p className="text-[20px] font-bold text-[#3D3D3D]">
+                  Barberton Daisy
                 </p>
+                <span className="py-2 text-[15px] font-normal text-[#3D3D3D]">
+                  <span className="text-gray-400">SKU:</span> 1995751877966
+                </span>
               </div>
+              <span className="text-[18px] font-normal text-[#3D3D3D]">
+                (x 2)
+              </span>
+              <span className="text-[20px] font-bold text-green-600">
+                $238.00
+              </span>
+            </div>
+            <div className="my-5 flex items-center justify-between rounded-md bg-gray-50 p-4">
+              <img src={Img2} alt="" className="h-[75px] w-[75px]" />
               <div className="">
-                <div className="flex items-center justify-between py-3">
-                  <p className="text-[18px] font-normal text-[#3D3D3D]">
-                    Subtotal
-                  </p>
-                  <h3 className="text-[20px] font-medium text-[#3D3D3D]">
-                    $2,683.00
-                  </h3>
-                </div>
-                <div className="flex items-center justify-between pb-3">
-                  <p className="text-[18px] font-normal text-[#3D3D3D]">
-                    Coupon Discount
-                  </p>
-                  <h3 className="text-[20px] font-normal text-[#3D3D3D]">
-                    (-) 00.00
-                  </h3>
-                </div>
-                <div className="flex items-center justify-between">
-                  <p className="text-[18px] font-normal text-[#3D3D3D]">
-                    Shipping
-                  </p>
-                  <h3 className="text-[20px] font-medium text-[#3D3D3D]">
-                    $16.00
-                  </h3>
-                </div>
-                <div className="flex justify-end pb-4 text-green-600">
-                  <p className="text-[15px] font-normal">
-                    View shipping charge
-                  </p>
-                </div>
-                <div className="flex items-center justify-between border-t-2 border-t-green-200 py-4">
-                  <h3 className="text-[20px] font-semibold">Total</h3>
-                  <h3 className="text-[20px] font-semibold text-green-600">
-                    $2,699.00
-                  </h3>
-                </div>
+                <p className="text-[20px] font-bold text-[#3D3D3D]">
+                  Blushing Bromeli
+                </p>
+                <span className="py-2 text-[15px] font-normal text-[#3D3D3D]">
+                  <span className="text-gray-400">SKU:</span> 19957518757065
+                </span>
               </div>
+              <span className="text-[18px] font-normal text-[#3D3D3D]">
+                (x 6)
+              </span>
+              <span className="text-[20px] font-bold text-green-600">
+                $834.00
+              </span>
+            </div>
+            <div className="my-5 flex items-center justify-between rounded-md bg-gray-50 p-4">
+              <img src={Img3} alt="" className="h-[75px] w-[75px]" />
               <div className="">
-                <h4>Payment Method</h4>
-                <div className="mt-[20px] flex items-center gap-4 rounded-md border border-gray-200 px-4 py-4 hover:border-green-600">
-                  <input type="radio" className="h-[15px] w-[15px]" />
-                  <img src={Img4} alt="" className="" />
-                </div>
-                <div className="mt-[20px] flex items-center gap-4 rounded-md border border-gray-200 px-4 py-4 hover:border-green-600">
-                  <input type="radio" className="h-[15px] w-[15px]" />
-                  <label className="font-normal text-[#3D3D3D]">
-                    Dorect bank transfer
-                  </label>
-                </div>
-                <div className="mt-[20px] flex items-center gap-4 rounded-md border border-gray-200 px-4 py-4 hover:border-green-600">
-                  <input type="radio" className="h-[15px] w-[15px]" />
-                  <label className="font-normal text-[#3D3D3D]">
-                    Cash on delivery
-                  </label>
-                </div>
+                <p className="text-[20px] font-bold text-[#3D3D3D]">
+                  Aluminum Plant
+                </p>
+                <span className="py-2 text-[15px] font-normal text-[#3D3D3D]">
+                  <span className="text-gray-400">SKU:</span> 1995751877786
+                </span>
               </div>
-              <div className="my-[60px]">
-                <button
-                  type="submit"
-                  onClick={handleSubmit}
-                  className="w-full rounded-md bg-[#46A358] px-5 py-3 text-lg text-white hover:bg-green-700 text-center "
-                >
-                  Place Order
-                </button>
+              <span className="text-[18px] font-normal text-[#3D3D3D]">
+                (x 9)
+              </span>
+              <span className="text-[20px] font-bold text-green-600">
+                $1,611.00
+              </span>
+            </div>
+            <div className="mb-[50px] flex items-center justify-end">
+              <p>
+                Have a coupon code?{" "}
+                <span className="text-green-600">Click here</span>
+              </p>
+            </div>
+            <div className="">
+              <div className="flex items-center justify-between py-3">
+                <p className="text-[18px] font-normal text-[#3D3D3D]">
+                  Subtotal
+                </p>
+                <h3 className="text-[20px] font-medium text-[#3D3D3D]">
+                  $2,683.00
+                </h3>
+              </div>
+              <div className="flex items-center justify-between pb-3">
+                <p className="text-[18px] font-normal text-[#3D3D3D]">
+                  Coupon Discount
+                </p>
+                <h3 className="text-[20px] font-normal text-[#3D3D3D]">
+                  (-) 00.00
+                </h3>
+              </div>
+              <div className="flex items-center justify-between">
+                <p className="text-[18px] font-normal text-[#3D3D3D]">
+                  Shipping
+                </p>
+                <h3 className="text-[20px] font-medium text-[#3D3D3D]">
+                  $16.00
+                </h3>
+              </div>
+              <div className="flex justify-end pb-4 text-green-600">
+                <p className="text-[15px] font-normal">View shipping charge</p>
+              </div>
+              <div className="flex items-center justify-between border-t-2 border-t-green-200 py-4">
+                <h3 className="text-[20px] font-semibold">Total</h3>
+                <h3 className="text-[20px] font-semibold text-green-600">
+                  $2,699.00
+                </h3>
               </div>
             </div>
+            <div className="">
+              <h4>Payment Method</h4>
+              <div className="mt-[20px] flex items-center gap-4 rounded-md border border-gray-200 px-4 py-4 hover:border-green-600">
+                <input type="radio" className="h-[15px] w-[15px]" />
+                <img src={Img4} alt="" className="" />
+              </div>
+              <div className="mt-[20px] flex items-center gap-4 rounded-md border border-gray-200 px-4 py-4 hover:border-green-600">
+                <input type="radio" className="h-[15px] w-[15px]" />
+                <label className="font-normal text-[#3D3D3D]">
+                  Dorect bank transfer
+                </label>
+              </div>
+              <div className="mt-[20px] flex items-center gap-4 rounded-md border border-gray-200 px-4 py-4 hover:border-green-600">
+                <input type="radio" className="h-[15px] w-[15px]" />
+                <label className="font-normal text-[#3D3D3D]">
+                  Cash on delivery
+                </label>
+              </div>
+            </div>
+            <div className="my-[60px]">
+              <button
+                type="submit"
+                onClick={handleSubmit}
+                className="w-full rounded-md bg-[#46A358] px-5 py-3 text-center text-lg text-white hover:bg-green-700"
+              >
+                Place Order
+              </button>
+            </div>
           </div>
-      
         </div>
       </div>
+      <Modal
+        isVisible={isModalVisible}
+        onClose={() => setIsModalVisible(false)}
+      />
     </div>
   );
 };

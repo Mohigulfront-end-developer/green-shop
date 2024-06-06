@@ -1,15 +1,15 @@
-import { useState } from 'react'
+import { useState } from "react";
 import data from "../../utils/data";
 import Img1 from "../../../public/assets/plant2.png";
-import { Link } from 'react-router-dom';
+import { Link, useParams } from "react-router-dom";
 import FavoriteBorderOutlinedIcon from "@mui/icons-material/FavoriteBorderOutlined";
 import { FaFacebookF } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa6";
 import { FaLinkedinIn } from "react-icons/fa";
-import { CiMail } from "react-icons/ci"; 
+import { CiMail } from "react-icons/ci";
 
 const ProductDetailsHeader = () => {
-    const [count, setCount] = useState(1);
+  const [count, setCount] = useState(1);
   const [image, setImage] = useState(Img1);
   const [name, setName] = useState("Barberton Daisy");
   const [price, setPrice] = useState("$119.00");
@@ -17,7 +17,12 @@ const ProductDetailsHeader = () => {
   const [isActive2, setIsActive2] = useState(false);
   const [isActive3, setIsActive3] = useState(false);
   const [isActive4, setIsActive4] = useState(false);
+  const { id } = useParams();
+  const shopping = data.find((item) => item.id == id);
+  const [selectedImg, setSelectedImg] = useState(shopping.image);
 
+  console.log(shopping);
+  
   const clicked1 = () => {
     setIsActive1(true) &
       setIsActive2(false) &
@@ -54,8 +59,8 @@ const ProductDetailsHeader = () => {
   return (
     <div className="container mx-auto">
       <div className="flex justify-between gap-10">
-        <div className="h-[480px] w-[300px] overflow-y-scroll">
-          {data.map((item) => (
+        <div className="h-[480px] w-[300px]">
+          {/* {data.map((item) => (
             <div className="" key={item.id}>
               <div
                 className=""
@@ -72,10 +77,59 @@ const ProductDetailsHeader = () => {
                 />
               </div>
             </div>
-          ))}
+          ))} */}
+
+          {shopping ? (
+            <div>
+              {/* <p> {shopping.name} </p> */}
+              <img
+                onClick={() => setSelectedImg(shopping.image)}
+                src={shopping.image}
+                alt=""
+                className={
+                  selectedImg == shopping.image
+                    ? "h-[100px] w-[100px] border border-[#46A358] duration-200"
+                    : "h-[100px] w-[100px]"
+                }
+              />
+              <img
+                onClick={() => setSelectedImg(shopping.image2)}
+                src={shopping.image2}
+                alt=""
+                className={
+                  selectedImg == shopping.image2
+                    ? "mt-[16px] h-[100px] w-[100px] border border-[#46A358] duration-200"
+                    : "mt-[16px] h-[100px] w-[100px]"
+                }
+              />
+
+              <img
+                onClick={() => setSelectedImg(shopping.image5)}
+                src={shopping.image5}
+                alt=""
+                className={
+                  selectedImg == shopping.image5
+                    ? "mt-[16px] h-[100px] w-[100px] border border-[#46A358] duration-200"
+                    : "mt-[16px] h-[100px] w-[100px]"
+                }
+              />
+              <img
+                onClick={() => setSelectedImg(shopping.image3)}
+                src={shopping.image3}
+                alt=""
+                className={
+                  selectedImg == shopping.image3
+                    ? "mt-[16px] h-[100px] w-[100px] border border-[#46A358] duration-200"
+                    : "mt-[16px] h-[100px] w-[100px]"
+                }
+              />
+
+              {/* <p> {shopping.price} </p> */}
+            </div>
+          ) : null}
         </div>
         <div className="">
-          <img src={image} alt="image" className="h-[500px] w-[750px]" />
+          <img src={selectedImg} alt="image" className="h-[500px] w-[880px]" />
         </div>
         <div className="">
           <div className="border-b-2">
@@ -187,6 +241,6 @@ const ProductDetailsHeader = () => {
       </div>
     </div>
   );
-}
+};
 
-export default ProductDetailsHeader
+export default ProductDetailsHeader;

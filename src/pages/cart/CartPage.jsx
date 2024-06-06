@@ -15,15 +15,15 @@ const CartPage = (product, state, className) => {
   const dispatch = useDispatch();
   // console.log(cart, "cartpage for");
 
-  const handleRemove = (id) => {
-    dispatch(removeFromCart(id));
+  const handleRemove = (item) => {
+    dispatch(removeFromCart(item.id));
     // console.log('hi');
   };
   return (
     <div className="container mx-auto px-4">
       {" "}
       <div className="flex items-center gap-4 py-10">
-        <NavLink to={"/"}>Home</NavLink>/<Link to={"/shop"}>Shop</Link>/
+        <NavLink to={"/"}>Home</NavLink>/<Link to={"/shop/1"}>Shop</Link>/
         <NavLink to={"/shop/cart"}>Shopping Cart</NavLink>
       </div>
       <div className="flex items-start justify-between gap-2">
@@ -36,11 +36,11 @@ const CartPage = (product, state, className) => {
             <h2></h2>
           </div>
 
-          <div className="mt-5 grid h-[450px] grid-cols-1 overflow-y-scroll">
+          <div className="mt-5 grid max-h-[450px] grid-cols-1 overflow-y-auto">
             {cart.map((item) => (
               <div
                 key={item.id}
-                className="mb-5 grid grid-cols-6 items-center bg-gray-50 pr-[20px]"
+                className="mb-5 max-h-[80px] grid grid-cols-6 items-center bg-gray-50 pr-[20px]"
               >
                 <div className="mr-[20px]">
                   <img

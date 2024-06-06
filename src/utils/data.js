@@ -53,6 +53,14 @@ const plantsData = [
   {
     id: 1,
     image: Plant1,
+    image1:
+      "https://static.vecteezy.com/system/resources/thumbnails/026/432/629/small_2x/interior-home-plant-in-pot-png.png",
+    image2:
+      "https://png.pngtree.com/png-clipart/20220829/ourmid/pngtree-indoor-plant-png-image_6129530.png",
+    image3:
+      "https://static.vecteezy.com/system/resources/thumbnails/024/859/837/small_2x/monstera-plant-in-ceramic-pot-illustration-ai-generative-png.png",
+    image5:
+      "https://png.pngtree.com/png-vector/20240207/ourmid/pngtree-indoor-plant-flowerpot-png-image_11669796.png",
     name: "Lush Greenery Delight",
     price: 24.99,
     description: "Bring the outdoors in with this delightful green plant.",
@@ -64,6 +72,14 @@ const plantsData = [
   {
     id: 2,
     image: Plant2,
+    image1:
+      "https://static.vecteezy.com/system/resources/thumbnails/026/432/629/small_2x/interior-home-plant-in-pot-png.png",
+    image2:
+      "https://png.pngtree.com/png-clipart/20220829/ourmid/pngtree-indoor-plant-png-image_6129530.png",
+    image3:
+      "https://static.vecteezy.com/system/resources/thumbnails/024/859/837/small_2x/monstera-plant-in-ceramic-pot-illustration-ai-generative-png.png",
+    image5:
+      "https://png.pngtree.com/png-vector/20240207/ourmid/pngtree-indoor-plant-flowerpot-png-image_11669796.png",
     name: "Colorful Blossom Marvel",
     price: 34.99,
     description: "A marvel of colorful blossoms to brighten up any room.",
@@ -75,6 +91,14 @@ const plantsData = [
   {
     id: 3,
     image: Plant3,
+    image1:
+      "https://static.vecteezy.com/system/resources/thumbnails/026/432/629/small_2x/interior-home-plant-in-pot-png.png",
+    image2:
+      "https://png.pngtree.com/png-clipart/20220829/ourmid/pngtree-indoor-plant-png-image_6129530.png",
+    image3:
+      "https://static.vecteezy.com/system/resources/thumbnails/024/859/837/small_2x/monstera-plant-in-ceramic-pot-illustration-ai-generative-png.png",
+    image5:
+      "https://png.pngtree.com/png-vector/20240207/ourmid/pngtree-indoor-plant-flowerpot-png-image_11669796.png",
     name: "Spiky Elegance Cactus",
     price: 12.99,
     description: "An elegant cactus with spiky charm for a unique touch.",
@@ -86,6 +110,14 @@ const plantsData = [
   {
     id: 4,
     image: Plant4,
+    image1:
+      "https://static.vecteezy.com/system/resources/thumbnails/026/432/629/small_2x/interior-home-plant-in-pot-png.png",
+    image2:
+      "https://png.pngtree.com/png-clipart/20220829/ourmid/pngtree-indoor-plant-png-image_6129530.png",
+    image3:
+      "https://static.vecteezy.com/system/resources/thumbnails/024/859/837/small_2x/monstera-plant-in-ceramic-pot-illustration-ai-generative-png.png",
+    image5:
+      "https://png.pngtree.com/png-vector/20240207/ourmid/pngtree-indoor-plant-flowerpot-png-image_11669796.png",
     name: "Golden Sunflower Patch",
     price: 19.99,
     description: "A patch of golden sunflowers to bring warmth to your space.",
@@ -97,6 +129,14 @@ const plantsData = [
   {
     id: 5,
     image: Plant5,
+    image1:
+      "https://static.vecteezy.com/system/resources/thumbnails/026/432/629/small_2x/interior-home-plant-in-pot-png.png",
+    image2:
+      "https://png.pngtree.com/png-clipart/20220829/ourmid/pngtree-indoor-plant-png-image_6129530.png",
+    image3:
+      "https://static.vecteezy.com/system/resources/thumbnails/024/859/837/small_2x/monstera-plant-in-ceramic-pot-illustration-ai-generative-png.png",
+    image5:
+      "https://png.pngtree.com/png-vector/20240207/ourmid/pngtree-indoor-plant-flowerpot-png-image_11669796.png",
     name: "Tiny Terrarium Wonderland",
     price: 27.99,
     description:
@@ -109,6 +149,14 @@ const plantsData = [
   {
     id: 6,
     image: Plant6,
+    image1:
+      "https://static.vecteezy.com/system/resources/thumbnails/026/432/629/small_2x/interior-home-plant-in-pot-png.png",
+    image2:
+      "https://png.pngtree.com/png-clipart/20220829/ourmid/pngtree-indoor-plant-png-image_6129530.png",
+    image3:
+      "https://static.vecteezy.com/system/resources/thumbnails/024/859/837/small_2x/monstera-plant-in-ceramic-pot-illustration-ai-generative-png.png",
+    image5:
+      "https://png.pngtree.com/png-vector/20240207/ourmid/pngtree-indoor-plant-flowerpot-png-image_11669796.png",
     name: "Majestic Fern Forest",
     price: 29.99,
     description: "Transform your space into a majestic fern forest retreat.",
@@ -120,6 +168,14 @@ const plantsData = [
   {
     id: 7,
     image: Plant7,
+    image1:
+      "https://static.vecteezy.com/system/resources/thumbnails/026/432/629/small_2x/interior-home-plant-in-pot-png.png",
+    image2:
+      "https://png.pngtree.com/png-clipart/20220829/ourmid/pngtree-indoor-plant-png-image_6129530.png",
+    image3:
+      "https://static.vecteezy.com/system/resources/thumbnails/024/859/837/small_2x/monstera-plant-in-ceramic-pot-illustration-ai-generative-png.png",
+    image5:
+      "https://png.pngtree.com/png-vector/20240207/ourmid/pngtree-indoor-plant-flowerpot-png-image_11669796.png",
     name: "Bamboo Zen Garden",
     price: 39.99,
     description:
@@ -132,6 +188,14 @@ const plantsData = [
   {
     id: 8,
     image: Plant8,
+    image1:
+      "https://static.vecteezy.com/system/resources/thumbnails/026/432/629/small_2x/interior-home-plant-in-pot-png.png",
+    image2:
+      "https://png.pngtree.com/png-clipart/20220829/ourmid/pngtree-indoor-plant-png-image_6129530.png",
+    image3:
+      "https://static.vecteezy.com/system/resources/thumbnails/024/859/837/small_2x/monstera-plant-in-ceramic-pot-illustration-ai-generative-png.png",
+    image5:
+      "https://png.pngtree.com/png-vector/20240207/ourmid/pngtree-indoor-plant-flowerpot-png-image_11669796.png",
     name: "Scented Lavender Fields",
     price: 18.99,
     description: "Bring the soothing aroma of lavender fields to your home.",
@@ -143,6 +207,14 @@ const plantsData = [
   {
     id: 9,
     image: Plant9,
+    image1:
+      "https://static.vecteezy.com/system/resources/thumbnails/026/432/629/small_2x/interior-home-plant-in-pot-png.png",
+    image2:
+      "https://png.pngtree.com/png-clipart/20220829/ourmid/pngtree-indoor-plant-png-image_6129530.png",
+    image3:
+      "https://static.vecteezy.com/system/resources/thumbnails/024/859/837/small_2x/monstera-plant-in-ceramic-pot-illustration-ai-generative-png.png",
+    image5:
+      "https://png.pngtree.com/png-vector/20240207/ourmid/pngtree-indoor-plant-flowerpot-png-image_11669796.png",
     name: "Ruby Red Rose Elegance",
     price: 32.99,
     description:
@@ -155,6 +227,14 @@ const plantsData = [
   {
     id: 10,
     image: Plant10,
+    image1:
+      "https://static.vecteezy.com/system/resources/thumbnails/026/432/629/small_2x/interior-home-plant-in-pot-png.png",
+    image2:
+      "https://png.pngtree.com/png-clipart/20220829/ourmid/pngtree-indoor-plant-png-image_6129530.png",
+    image3:
+      "https://static.vecteezy.com/system/resources/thumbnails/024/859/837/small_2x/monstera-plant-in-ceramic-pot-illustration-ai-generative-png.png",
+    image5:
+      "https://png.pngtree.com/png-vector/20240207/ourmid/pngtree-indoor-plant-flowerpot-png-image_11669796.png",
     name: "Succulent Surprise Set",
     price: 22.99,
     description:
@@ -167,6 +247,14 @@ const plantsData = [
   {
     id: 11,
     image: Plant11,
+    image1:
+      "https://static.vecteezy.com/system/resources/thumbnails/026/432/629/small_2x/interior-home-plant-in-pot-png.png",
+    image2:
+      "https://png.pngtree.com/png-clipart/20220829/ourmid/pngtree-indoor-plant-png-image_6129530.png",
+    image3:
+      "https://static.vecteezy.com/system/resources/thumbnails/024/859/837/small_2x/monstera-plant-in-ceramic-pot-illustration-ai-generative-png.png",
+    image5:
+      "https://png.pngtree.com/png-vector/20240207/ourmid/pngtree-indoor-plant-flowerpot-png-image_11669796.png",
     name: "Eternal Eucalyptus Bliss",
     price: 26.99,
     description:
@@ -179,6 +267,14 @@ const plantsData = [
   {
     id: 12,
     image: Plant12,
+    image1:
+      "https://static.vecteezy.com/system/resources/thumbnails/026/432/629/small_2x/interior-home-plant-in-pot-png.png",
+    image2:
+      "https://png.pngtree.com/png-clipart/20220829/ourmid/pngtree-indoor-plant-png-image_6129530.png",
+    image3:
+      "https://static.vecteezy.com/system/resources/thumbnails/024/859/837/small_2x/monstera-plant-in-ceramic-pot-illustration-ai-generative-png.png",
+    image5:
+      "https://png.pngtree.com/png-vector/20240207/ourmid/pngtree-indoor-plant-flowerpot-png-image_11669796.png",
     name: "Floating Lotus Pond",
     price: 36.99,
     description:
@@ -191,6 +287,14 @@ const plantsData = [
   {
     id: 13,
     image: Plant13,
+    image1:
+      "https://static.vecteezy.com/system/resources/thumbnails/026/432/629/small_2x/interior-home-plant-in-pot-png.png",
+    image2:
+      "https://png.pngtree.com/png-clipart/20220829/ourmid/pngtree-indoor-plant-png-image_6129530.png",
+    image3:
+      "https://static.vecteezy.com/system/resources/thumbnails/024/859/837/small_2x/monstera-plant-in-ceramic-pot-illustration-ai-generative-png.png",
+    image5:
+      "https://png.pngtree.com/png-vector/20240207/ourmid/pngtree-indoor-plant-flowerpot-png-image_11669796.png",
     name: "Royal Blue Hydrangea Bouquet",
     price: 17.99,
     description:
@@ -203,6 +307,14 @@ const plantsData = [
   {
     id: 14,
     image: Plant14,
+    image1:
+      "https://static.vecteezy.com/system/resources/thumbnails/026/432/629/small_2x/interior-home-plant-in-pot-png.png",
+    image2:
+      "https://png.pngtree.com/png-clipart/20220829/ourmid/pngtree-indoor-plant-png-image_6129530.png",
+    image3:
+      "https://static.vecteezy.com/system/resources/thumbnails/024/859/837/small_2x/monstera-plant-in-ceramic-pot-illustration-ai-generative-png.png",
+    image5:
+      "https://png.pngtree.com/png-vector/20240207/ourmid/pngtree-indoor-plant-flowerpot-png-image_11669796.png",
     name: "Daisy Delightful Garden",
     price: 23.99,
     description: "Cultivate delight with a garden featuring cheerful daisies.",
@@ -214,6 +326,14 @@ const plantsData = [
   {
     id: 15,
     image: Plant15,
+    image1:
+      "https://static.vecteezy.com/system/resources/thumbnails/026/432/629/small_2x/interior-home-plant-in-pot-png.png",
+    image2:
+      "https://png.pngtree.com/png-clipart/20220829/ourmid/pngtree-indoor-plant-png-image_6129530.png",
+    image3:
+      "https://static.vecteezy.com/system/resources/thumbnails/024/859/837/small_2x/monstera-plant-in-ceramic-pot-illustration-ai-generative-png.png",
+    image5:
+      "https://png.pngtree.com/png-vector/20240207/ourmid/pngtree-indoor-plant-flowerpot-png-image_11669796.png",
     name: "Golden Pothos Cascade",
     price: 28.99,
     description:
@@ -226,6 +346,14 @@ const plantsData = [
   {
     id: 16,
     image: Plant16,
+    image1:
+      "https://static.vecteezy.com/system/resources/thumbnails/026/432/629/small_2x/interior-home-plant-in-pot-png.png",
+    image2:
+      "https://png.pngtree.com/png-clipart/20220829/ourmid/pngtree-indoor-plant-png-image_6129530.png",
+    image3:
+      "https://static.vecteezy.com/system/resources/thumbnails/024/859/837/small_2x/monstera-plant-in-ceramic-pot-illustration-ai-generative-png.png",
+    image5:
+      "https://png.pngtree.com/png-vector/20240207/ourmid/pngtree-indoor-plant-flowerpot-png-image_11669796.png",
     name: "Succulent Paradise Pack",
     price: 21.99,
     description: "Create your own succulent paradise with this assorted pack.",
@@ -237,6 +365,14 @@ const plantsData = [
   {
     id: 17,
     image: Plant17,
+    image1:
+      "https://static.vecteezy.com/system/resources/thumbnails/026/432/629/small_2x/interior-home-plant-in-pot-png.png",
+    image2:
+      "https://png.pngtree.com/png-clipart/20220829/ourmid/pngtree-indoor-plant-png-image_6129530.png",
+    image3:
+      "https://static.vecteezy.com/system/resources/thumbnails/024/859/837/small_2x/monstera-plant-in-ceramic-pot-illustration-ai-generative-png.png",
+    image5:
+      "https://png.pngtree.com/png-vector/20240207/ourmid/pngtree-indoor-plant-flowerpot-png-image_11669796.png",
     name: "Bonsai Serenity Grove",
     price: 42.99,
     description:
@@ -249,6 +385,14 @@ const plantsData = [
   {
     id: 18,
     image: Plant18,
+    image1:
+      "https://static.vecteezy.com/system/resources/thumbnails/026/432/629/small_2x/interior-home-plant-in-pot-png.png",
+    image2:
+      "https://png.pngtree.com/png-clipart/20220829/ourmid/pngtree-indoor-plant-png-image_6129530.png",
+    image3:
+      "https://static.vecteezy.com/system/resources/thumbnails/024/859/837/small_2x/monstera-plant-in-ceramic-pot-illustration-ai-generative-png.png",
+    image5:
+      "https://png.pngtree.com/png-vector/20240207/ourmid/pngtree-indoor-plant-flowerpot-png-image_11669796.png",
     name: "Sun-Kissed Marigold Patch",
     price: 15.99,
     description:
@@ -261,6 +405,14 @@ const plantsData = [
   {
     id: 19,
     image: Plant19,
+    image1:
+      "https://static.vecteezy.com/system/resources/thumbnails/026/432/629/small_2x/interior-home-plant-in-pot-png.png",
+    image2:
+      "https://png.pngtree.com/png-clipart/20220829/ourmid/pngtree-indoor-plant-png-image_6129530.png",
+    image3:
+      "https://static.vecteezy.com/system/resources/thumbnails/024/859/837/small_2x/monstera-plant-in-ceramic-pot-illustration-ai-generative-png.png",
+    image5:
+      "https://png.pngtree.com/png-vector/20240207/ourmid/pngtree-indoor-plant-flowerpot-png-image_11669796.png",
     name: "Cactus Garden Oasis",
     price: 31.99,
     description:
@@ -273,6 +425,14 @@ const plantsData = [
   {
     id: 20,
     image: Plant20,
+    image1:
+      "https://static.vecteezy.com/system/resources/thumbnails/026/432/629/small_2x/interior-home-plant-in-pot-png.png",
+    image2:
+      "https://png.pngtree.com/png-clipart/20220829/ourmid/pngtree-indoor-plant-png-image_6129530.png",
+    image3:
+      "https://static.vecteezy.com/system/resources/thumbnails/024/859/837/small_2x/monstera-plant-in-ceramic-pot-illustration-ai-generative-png.png",
+    image5:
+      "https://png.pngtree.com/png-vector/20240207/ourmid/pngtree-indoor-plant-flowerpot-png-image_11669796.png",
     name: "Zen Bamboo Fountain",
     price: 48.99,
     description:
@@ -285,6 +445,14 @@ const plantsData = [
   {
     id: 21,
     image: Plant21,
+    image1:
+      "https://static.vecteezy.com/system/resources/thumbnails/026/432/629/small_2x/interior-home-plant-in-pot-png.png",
+    image2:
+      "https://png.pngtree.com/png-clipart/20220829/ourmid/pngtree-indoor-plant-png-image_6129530.png",
+    image3:
+      "https://static.vecteezy.com/system/resources/thumbnails/024/859/837/small_2x/monstera-plant-in-ceramic-pot-illustration-ai-generative-png.png",
+    image5:
+      "https://png.pngtree.com/png-vector/20240207/ourmid/pngtree-indoor-plant-flowerpot-png-image_11669796.png",
     name: "Enchanting Lavender Bouquet",
     price: 19.99,
     description:
@@ -297,6 +465,14 @@ const plantsData = [
   {
     id: 22,
     image: Plant22,
+    image1:
+      "https://static.vecteezy.com/system/resources/thumbnails/026/432/629/small_2x/interior-home-plant-in-pot-png.png",
+    image2:
+      "https://png.pngtree.com/png-clipart/20220829/ourmid/pngtree-indoor-plant-png-image_6129530.png",
+    image3:
+      "https://static.vecteezy.com/system/resources/thumbnails/024/859/837/small_2x/monstera-plant-in-ceramic-pot-illustration-ai-generative-png.png",
+    image5:
+      "https://png.pngtree.com/png-vector/20240207/ourmid/pngtree-indoor-plant-flowerpot-png-image_11669796.png",
     name: "Rainbow Tulip Array",
     price: 27.99,
     description:
@@ -309,6 +485,14 @@ const plantsData = [
   {
     id: 23,
     image: Plant23,
+    image1:
+      "https://static.vecteezy.com/system/resources/thumbnails/026/432/629/small_2x/interior-home-plant-in-pot-png.png",
+    image2:
+      "https://png.pngtree.com/png-clipart/20220829/ourmid/pngtree-indoor-plant-png-image_6129530.png",
+    image3:
+      "https://static.vecteezy.com/system/resources/thumbnails/024/859/837/small_2x/monstera-plant-in-ceramic-pot-illustration-ai-generative-png.png",
+    image5:
+      "https://png.pngtree.com/png-vector/20240207/ourmid/pngtree-indoor-plant-flowerpot-png-image_11669796.png",
     name: "Cascading Ivy Elegance",
     price: 34.99,
     description:
@@ -321,6 +505,14 @@ const plantsData = [
   {
     id: 24,
     image: Plant24,
+    image1:
+      "https://static.vecteezy.com/system/resources/thumbnails/026/432/629/small_2x/interior-home-plant-in-pot-png.png",
+    image2:
+      "https://png.pngtree.com/png-clipart/20220829/ourmid/pngtree-indoor-plant-png-image_6129530.png",
+    image3:
+      "https://static.vecteezy.com/system/resources/thumbnails/024/859/837/small_2x/monstera-plant-in-ceramic-pot-illustration-ai-generative-png.png",
+    image5:
+      "https://png.pngtree.com/png-vector/20240207/ourmid/pngtree-indoor-plant-flowerpot-png-image_11669796.png",
     name: "Golden Zinnia Meadow",
     price: 22.99,
     description:
@@ -333,6 +525,14 @@ const plantsData = [
   {
     id: 25,
     image: Plant25,
+    image1:
+      "https://static.vecteezy.com/system/resources/thumbnails/026/432/629/small_2x/interior-home-plant-in-pot-png.png",
+    image2:
+      "https://png.pngtree.com/png-clipart/20220829/ourmid/pngtree-indoor-plant-png-image_6129530.png",
+    image3:
+      "https://static.vecteezy.com/system/resources/thumbnails/024/859/837/small_2x/monstera-plant-in-ceramic-pot-illustration-ai-generative-png.png",
+    image5:
+      "https://png.pngtree.com/png-vector/20240207/ourmid/pngtree-indoor-plant-flowerpot-png-image_11669796.png",
     name: "Succulent Symphony Pack",
     price: 31.99,
     description:
@@ -345,6 +545,14 @@ const plantsData = [
   {
     id: 26,
     image: Plant26,
+    image1:
+      "https://static.vecteezy.com/system/resources/thumbnails/026/432/629/small_2x/interior-home-plant-in-pot-png.png",
+    image2:
+      "https://png.pngtree.com/png-clipart/20220829/ourmid/pngtree-indoor-plant-png-image_6129530.png",
+    image3:
+      "https://static.vecteezy.com/system/resources/thumbnails/024/859/837/small_2x/monstera-plant-in-ceramic-pot-illustration-ai-generative-png.png",
+    image5:
+      "https://png.pngtree.com/png-vector/20240207/ourmid/pngtree-indoor-plant-flowerpot-png-image_11669796.png",
     name: "Jasmine Scented Garden",
     price: 38.99,
     description:
@@ -357,6 +565,14 @@ const plantsData = [
   {
     id: 27,
     image: Plant27,
+    image1:
+      "https://static.vecteezy.com/system/resources/thumbnails/026/432/629/small_2x/interior-home-plant-in-pot-png.png",
+    image2:
+      "https://png.pngtree.com/png-clipart/20220829/ourmid/pngtree-indoor-plant-png-image_6129530.png",
+    image3:
+      "https://static.vecteezy.com/system/resources/thumbnails/024/859/837/small_2x/monstera-plant-in-ceramic-pot-illustration-ai-generative-png.png",
+    image5:
+      "https://png.pngtree.com/png-vector/20240207/ourmid/pngtree-indoor-plant-flowerpot-png-image_11669796.png",
     name: "Peace Lily Harmony",
     price: 29.99,
     description: "Achieve harmony with the timeless beauty of a peace lily.",
@@ -368,6 +584,14 @@ const plantsData = [
   {
     id: 28,
     image: Plant28,
+    image1:
+      "https://static.vecteezy.com/system/resources/thumbnails/026/432/629/small_2x/interior-home-plant-in-pot-png.png",
+    image2:
+      "https://png.pngtree.com/png-clipart/20220829/ourmid/pngtree-indoor-plant-png-image_6129530.png",
+    image3:
+      "https://static.vecteezy.com/system/resources/thumbnails/024/859/837/small_2x/monstera-plant-in-ceramic-pot-illustration-ai-generative-png.png",
+    image5:
+      "https://png.pngtree.com/png-vector/20240207/ourmid/pngtree-indoor-plant-flowerpot-png-image_11669796.png",
     name: "Autumn Maple Bonsai",
     price: 45.99,
     description:
@@ -380,6 +604,14 @@ const plantsData = [
   {
     id: 29,
     image: Plant29,
+    image1:
+      "https://static.vecteezy.com/system/resources/thumbnails/026/432/629/small_2x/interior-home-plant-in-pot-png.png",
+    image2:
+      "https://png.pngtree.com/png-clipart/20220829/ourmid/pngtree-indoor-plant-png-image_6129530.png",
+    image3:
+      "https://static.vecteezy.com/system/resources/thumbnails/024/859/837/small_2x/monstera-plant-in-ceramic-pot-illustration-ai-generative-png.png",
+    image5:
+      "https://png.pngtree.com/png-vector/20240207/ourmid/pngtree-indoor-plant-flowerpot-png-image_11669796.png",
     name: "Fairy Garden Retreat",
     price: 26.99,
     description:
@@ -392,6 +624,14 @@ const plantsData = [
   {
     id: 30,
     image: Plant30,
+    image1:
+      "https://static.vecteezy.com/system/resources/thumbnails/026/432/629/small_2x/interior-home-plant-in-pot-png.png",
+    image2:
+      "https://png.pngtree.com/png-clipart/20220829/ourmid/pngtree-indoor-plant-png-image_6129530.png",
+    image3:
+      "https://static.vecteezy.com/system/resources/thumbnails/024/859/837/small_2x/monstera-plant-in-ceramic-pot-illustration-ai-generative-png.png",
+    image5:
+      "https://png.pngtree.com/png-vector/20240207/ourmid/pngtree-indoor-plant-flowerpot-png-image_11669796.png",
     name: "Eternal Rose Elegance",
     price: 48.99,
     description:
@@ -404,6 +644,14 @@ const plantsData = [
   {
     id: 31,
     image: Plant31,
+    image1:
+      "https://static.vecteezy.com/system/resources/thumbnails/026/432/629/small_2x/interior-home-plant-in-pot-png.png",
+    image2:
+      "https://png.pngtree.com/png-clipart/20220829/ourmid/pngtree-indoor-plant-png-image_6129530.png",
+    image3:
+      "https://static.vecteezy.com/system/resources/thumbnails/024/859/837/small_2x/monstera-plant-in-ceramic-pot-illustration-ai-generative-png.png",
+    image5:
+      "https://png.pngtree.com/png-vector/20240207/ourmid/pngtree-indoor-plant-flowerpot-png-image_11669796.png",
     name: "Moonlit Cactus Garden",
     price: 36.99,
     description:
@@ -416,6 +664,14 @@ const plantsData = [
   {
     id: 32,
     image: Plant32,
+    image1:
+      "https://static.vecteezy.com/system/resources/thumbnails/026/432/629/small_2x/interior-home-plant-in-pot-png.png",
+    image2:
+      "https://png.pngtree.com/png-clipart/20220829/ourmid/pngtree-indoor-plant-png-image_6129530.png",
+    image3:
+      "https://static.vecteezy.com/system/resources/thumbnails/024/859/837/small_2x/monstera-plant-in-ceramic-pot-illustration-ai-generative-png.png",
+    image5:
+      "https://png.pngtree.com/png-vector/20240207/ourmid/pngtree-indoor-plant-flowerpot-png-image_11669796.png",
     name: "Cherry Blossom Bliss",
     price: 24.99,
     description:
@@ -428,6 +684,14 @@ const plantsData = [
   {
     id: 33,
     image: Plant33,
+    image1:
+      "https://static.vecteezy.com/system/resources/thumbnails/026/432/629/small_2x/interior-home-plant-in-pot-png.png",
+    image2:
+      "https://png.pngtree.com/png-clipart/20220829/ourmid/pngtree-indoor-plant-png-image_6129530.png",
+    image3:
+      "https://static.vecteezy.com/system/resources/thumbnails/024/859/837/small_2x/monstera-plant-in-ceramic-pot-illustration-ai-generative-png.png",
+    image5:
+      "https://png.pngtree.com/png-vector/20240207/ourmid/pngtree-indoor-plant-flowerpot-png-image_11669796.png",
     name: "Crystal Clear Terrarium",
     price: 29.99,
     description:
@@ -440,6 +704,14 @@ const plantsData = [
   {
     id: 34,
     image: Plant34,
+    image1:
+      "https://static.vecteezy.com/system/resources/thumbnails/026/432/629/small_2x/interior-home-plant-in-pot-png.png",
+    image2:
+      "https://png.pngtree.com/png-clipart/20220829/ourmid/pngtree-indoor-plant-png-image_6129530.png",
+    image3:
+      "https://static.vecteezy.com/system/resources/thumbnails/024/859/837/small_2x/monstera-plant-in-ceramic-pot-illustration-ai-generative-png.png",
+    image5:
+      "https://png.pngtree.com/png-vector/20240207/ourmid/pngtree-indoor-plant-flowerpot-png-image_11669796.png",
     name: "Majestic Orchid Ensemble",
     price: 39.99,
     description:
@@ -452,6 +724,14 @@ const plantsData = [
   {
     id: 35,
     image: Plant35,
+    image1:
+      "https://static.vecteezy.com/system/resources/thumbnails/026/432/629/small_2x/interior-home-plant-in-pot-png.png",
+    image2:
+      "https://png.pngtree.com/png-clipart/20220829/ourmid/pngtree-indoor-plant-png-image_6129530.png",
+    image3:
+      "https://static.vecteezy.com/system/resources/thumbnails/024/859/837/small_2x/monstera-plant-in-ceramic-pot-illustration-ai-generative-png.png",
+    image5:
+      "https://png.pngtree.com/png-vector/20240207/ourmid/pngtree-indoor-plant-flowerpot-png-image_11669796.png",
     name: "Lush Monstera Paradise",
     price: 42.99,
     description:
@@ -464,6 +744,14 @@ const plantsData = [
   {
     id: 36,
     image: Plant36,
+    image1:
+      "https://static.vecteezy.com/system/resources/thumbnails/026/432/629/small_2x/interior-home-plant-in-pot-png.png",
+    image2:
+      "https://png.pngtree.com/png-clipart/20220829/ourmid/pngtree-indoor-plant-png-image_6129530.png",
+    image3:
+      "https://static.vecteezy.com/system/resources/thumbnails/024/859/837/small_2x/monstera-plant-in-ceramic-pot-illustration-ai-generative-png.png",
+    image5:
+      "https://png.pngtree.com/png-vector/20240207/ourmid/pngtree-indoor-plant-flowerpot-png-image_11669796.png",
     name: "Radiant Rosemary Bush",
     price: 18.99,
     description:
@@ -476,6 +764,14 @@ const plantsData = [
   {
     id: 37,
     image: Plant37,
+    image1:
+      "https://static.vecteezy.com/system/resources/thumbnails/026/432/629/small_2x/interior-home-plant-in-pot-png.png",
+    image2:
+      "https://png.pngtree.com/png-clipart/20220829/ourmid/pngtree-indoor-plant-png-image_6129530.png",
+    image3:
+      "https://static.vecteezy.com/system/resources/thumbnails/024/859/837/small_2x/monstera-plant-in-ceramic-pot-illustration-ai-generative-png.png",
+    image5:
+      "https://png.pngtree.com/png-vector/20240207/ourmid/pngtree-indoor-plant-flowerpot-png-image_11669796.png",
     name: "Aloe Vera Oasis",
     price: 26.99,
     description:
@@ -488,6 +784,14 @@ const plantsData = [
   {
     id: 38,
     image: Plant38,
+    image1:
+      "https://static.vecteezy.com/system/resources/thumbnails/026/432/629/small_2x/interior-home-plant-in-pot-png.png",
+    image2:
+      "https://png.pngtree.com/png-clipart/20220829/ourmid/pngtree-indoor-plant-png-image_6129530.png",
+    image3:
+      "https://static.vecteezy.com/system/resources/thumbnails/024/859/837/small_2x/monstera-plant-in-ceramic-pot-illustration-ai-generative-png.png",
+    image5:
+      "https://png.pngtree.com/png-vector/20240207/ourmid/pngtree-indoor-plant-flowerpot-png-image_11669796.png",
     name: "Sunflower Symphony",
     price: 33.99,
     description:
@@ -500,6 +804,14 @@ const plantsData = [
   {
     id: 39,
     image: Plant39,
+    image1:
+      "https://static.vecteezy.com/system/resources/thumbnails/026/432/629/small_2x/interior-home-plant-in-pot-png.png",
+    image2:
+      "https://png.pngtree.com/png-clipart/20220829/ourmid/pngtree-indoor-plant-png-image_6129530.png",
+    image3:
+      "https://static.vecteezy.com/system/resources/thumbnails/024/859/837/small_2x/monstera-plant-in-ceramic-pot-illustration-ai-generative-png.png",
+    image5:
+      "https://png.pngtree.com/png-vector/20240207/ourmid/pngtree-indoor-plant-flowerpot-png-image_11669796.png",
     name: "Fern Forest Retreat",
     price: 28.99,
     description:
@@ -512,6 +824,14 @@ const plantsData = [
   {
     id: 40,
     image: Plant40,
+    image1:
+      "https://static.vecteezy.com/system/resources/thumbnails/026/432/629/small_2x/interior-home-plant-in-pot-png.png",
+    image2:
+      "https://png.pngtree.com/png-clipart/20220829/ourmid/pngtree-indoor-plant-png-image_6129530.png",
+    image3:
+      "https://static.vecteezy.com/system/resources/thumbnails/024/859/837/small_2x/monstera-plant-in-ceramic-pot-illustration-ai-generative-png.png",
+    image5:
+      "https://png.pngtree.com/png-vector/20240207/ourmid/pngtree-indoor-plant-flowerpot-png-image_11669796.png",
     name: "Soothing Lavender Fields",
     price: 23.99,
     description:
@@ -524,6 +844,14 @@ const plantsData = [
   {
     id: 41,
     image: Plant41,
+    image1:
+      "https://static.vecteezy.com/system/resources/thumbnails/026/432/629/small_2x/interior-home-plant-in-pot-png.png",
+    image2:
+      "https://png.pngtree.com/png-clipart/20220829/ourmid/pngtree-indoor-plant-png-image_6129530.png",
+    image3:
+      "https://static.vecteezy.com/system/resources/thumbnails/024/859/837/small_2x/monstera-plant-in-ceramic-pot-illustration-ai-generative-png.png",
+    image5:
+      "https://png.pngtree.com/png-vector/20240207/ourmid/pngtree-indoor-plant-flowerpot-png-image_11669796.png",
     name: "Mystical Bonsai Wonderland",
     price: 45.99,
     description:
@@ -536,6 +864,14 @@ const plantsData = [
   {
     id: 42,
     image: Plant42,
+    image1:
+      "https://static.vecteezy.com/system/resources/thumbnails/026/432/629/small_2x/interior-home-plant-in-pot-png.png",
+    image2:
+      "https://png.pngtree.com/png-clipart/20220829/ourmid/pngtree-indoor-plant-png-image_6129530.png",
+    image3:
+      "https://static.vecteezy.com/system/resources/thumbnails/024/859/837/small_2x/monstera-plant-in-ceramic-pot-illustration-ai-generative-png.png",
+    image5:
+      "https://png.pngtree.com/png-vector/20240207/ourmid/pngtree-indoor-plant-flowerpot-png-image_11669796.png",
     name: "Daisy Delight Bouquet",
     price: 19.99,
     description:
@@ -548,6 +884,14 @@ const plantsData = [
   {
     id: 43,
     image: Plant43,
+    image1:
+      "https://static.vecteezy.com/system/resources/thumbnails/026/432/629/small_2x/interior-home-plant-in-pot-png.png",
+    image2:
+      "https://png.pngtree.com/png-clipart/20220829/ourmid/pngtree-indoor-plant-png-image_6129530.png",
+    image3:
+      "https://static.vecteezy.com/system/resources/thumbnails/024/859/837/small_2x/monstera-plant-in-ceramic-pot-illustration-ai-generative-png.png",
+    image5:
+      "https://png.pngtree.com/png-vector/20240207/ourmid/pngtree-indoor-plant-flowerpot-png-image_11669796.png",
     name: "Floating Air Plant Ensemble",
     price: 32.99,
     description:
@@ -560,6 +904,14 @@ const plantsData = [
   {
     id: 44,
     image: Plant44,
+    image1:
+      "https://static.vecteezy.com/system/resources/thumbnails/026/432/629/small_2x/interior-home-plant-in-pot-png.png",
+    image2:
+      "https://png.pngtree.com/png-clipart/20220829/ourmid/pngtree-indoor-plant-png-image_6129530.png",
+    image3:
+      "https://static.vecteezy.com/system/resources/thumbnails/024/859/837/small_2x/monstera-plant-in-ceramic-pot-illustration-ai-generative-png.png",
+    image5:
+      "https://png.pngtree.com/png-vector/20240207/ourmid/pngtree-indoor-plant-flowerpot-png-image_11669796.png",
     name: "Sapphire Succulent Sphere",
     price: 27.99,
     description:
@@ -583,6 +935,14 @@ const plantsData = [
   {
     id: 46,
     image: Plant46,
+    image1:
+      "https://static.vecteezy.com/system/resources/thumbnails/026/432/629/small_2x/interior-home-plant-in-pot-png.png",
+    image2:
+      "https://png.pngtree.com/png-clipart/20220829/ourmid/pngtree-indoor-plant-png-image_6129530.png",
+    image3:
+      "https://static.vecteezy.com/system/resources/thumbnails/024/859/837/small_2x/monstera-plant-in-ceramic-pot-illustration-ai-generative-png.png",
+    image5:
+      "https://png.pngtree.com/png-vector/20240207/ourmid/pngtree-indoor-plant-flowerpot-png-image_11669796.png",
     name: "Emerald Fern Elegance",
     price: 23.99,
     description:
@@ -595,6 +955,14 @@ const plantsData = [
   {
     id: 47,
     image: Plant47,
+    image1:
+      "https://static.vecteezy.com/system/resources/thumbnails/026/432/629/small_2x/interior-home-plant-in-pot-png.png",
+    image2:
+      "https://png.pngtree.com/png-clipart/20220829/ourmid/pngtree-indoor-plant-png-image_6129530.png",
+    image3:
+      "https://static.vecteezy.com/system/resources/thumbnails/024/859/837/small_2x/monstera-plant-in-ceramic-pot-illustration-ai-generative-png.png",
+    image5:
+      "https://png.pngtree.com/png-vector/20240207/ourmid/pngtree-indoor-plant-flowerpot-png-image_11669796.png",
     name: "Harvest Herb Haven",
     price: 29.99,
     description:
@@ -607,6 +975,14 @@ const plantsData = [
   {
     id: 48,
     image: Plant48,
+    image1:
+      "https://static.vecteezy.com/system/resources/thumbnails/026/432/629/small_2x/interior-home-plant-in-pot-png.png",
+    image2:
+      "https://png.pngtree.com/png-clipart/20220829/ourmid/pngtree-indoor-plant-png-image_6129530.png",
+    image3:
+      "https://static.vecteezy.com/system/resources/thumbnails/024/859/837/small_2x/monstera-plant-in-ceramic-pot-illustration-ai-generative-png.png",
+    image5:
+      "https://png.pngtree.com/png-vector/20240207/ourmid/pngtree-indoor-plant-flowerpot-png-image_11669796.png",
     name: "Ruby Red Rose Bouquet",
     price: 38.99,
     description: "Express love with a radiant ruby red rose bouquet.",
@@ -618,6 +994,14 @@ const plantsData = [
   {
     id: 49,
     image: Plant40,
+    image1:
+      "https://static.vecteezy.com/system/resources/thumbnails/026/432/629/small_2x/interior-home-plant-in-pot-png.png",
+    image2:
+      "https://png.pngtree.com/png-clipart/20220829/ourmid/pngtree-indoor-plant-png-image_6129530.png",
+    image3:
+      "https://static.vecteezy.com/system/resources/thumbnails/024/859/837/small_2x/monstera-plant-in-ceramic-pot-illustration-ai-generative-png.png",
+    image5:
+      "https://png.pngtree.com/png-vector/20240207/ourmid/pngtree-indoor-plant-flowerpot-png-image_11669796.png",
     name: "Tranquil Bamboo Grove",
     price: 42.99,
     description:
@@ -630,6 +1014,14 @@ const plantsData = [
   {
     id: 50,
     image: Plant41,
+    image1:
+      "https://static.vecteezy.com/system/resources/thumbnails/026/432/629/small_2x/interior-home-plant-in-pot-png.png",
+    image2:
+      "https://png.pngtree.com/png-clipart/20220829/ourmid/pngtree-indoor-plant-png-image_6129530.png",
+    image3:
+      "https://static.vecteezy.com/system/resources/thumbnails/024/859/837/small_2x/monstera-plant-in-ceramic-pot-illustration-ai-generative-png.png",
+    image5:
+      "https://png.pngtree.com/png-vector/20240207/ourmid/pngtree-indoor-plant-flowerpot-png-image_11669796.png",
     name: "Charming Bonsai Retreat",
     price: 31.99,
     description:

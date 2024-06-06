@@ -5,15 +5,18 @@ import {
   Search,
   ShoppingCartOutlined,
 } from "@mui/icons-material";
+import { useNavigate } from "react-router-dom";
 
 const Cart = ({ id, image, name, price }) => {
   const dispatch = useDispatch();
+  const navigate = useNavigate()
 
   return (
     <div className="my-[40px] flex h-[330px] w-[278px] cursor-pointer flex-col items-center gap-2 rounded-lg py-2 font-normal">
       <img
         src={image}
         alt=""
+        onClick={() => navigate(`/shop/${id}`)}
         className="h-[300px] w-[255px] bg-[#FBFBFB] transition-all duration-500 ease-in-out hover:scale-110 hover:cursor-grab hover:border-t-2 hover:border-t-green-600"
       />
       <div className="flex flex-col gap-2">
@@ -31,7 +34,6 @@ const Cart = ({ id, image, name, price }) => {
                     name,
                     price,
                     qty: 1,
-                    
                   }),
                 );
               }}

@@ -8,7 +8,7 @@ const ProductDetails = () => {
   return (
     <div className="container mx-auto px-4">
       <div className="flex items-center gap-4 py-10">
-        <Link to={"/"}>Home</Link>/<NavLink to={"/shop"}>Shop</NavLink>
+        <Link to={"/"}>Home</Link>/<NavLink to={"/shop/1"}>Shop</NavLink>
       </div>
       <ProductDetailsHeader />
       <ProductDesc/>

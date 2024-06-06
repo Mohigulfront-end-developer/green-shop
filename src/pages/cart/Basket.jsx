@@ -50,7 +50,7 @@ const Basket = () => {
         </Link>
         <div className="flex items-center justify-center py-5">
           <button className="hover:text-green-600">
-            <Link to={"/shop/cart/checkout"}>Continue Shopping</Link>
+            <Link to={"/shop/1"}>Continue Shopping</Link>
           </button>
         </div>
       </div>

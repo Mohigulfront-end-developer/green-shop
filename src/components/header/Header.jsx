@@ -9,7 +9,7 @@ import { CiSearch } from "react-icons/ci";
 import { useState } from "react";
 
 
-const Header = () => {
+const Header = ({setModal}) => {
   const dispatch = useDispatch();
 
 
@@ -36,7 +36,7 @@ const Header = () => {
           Home
         </NavLink>
         <NavLink
-          to={"/shop"}
+          to={"/shop/1"}
           className="link pb-2 hover:border-b-[2px] hover:border-b-green-600 hover:text-green-600"
         >
           Shop
@@ -84,7 +84,7 @@ const Header = () => {
             ""
           )}
         </Link>
-        <button className="flex items-center gap-3 rounded-xl bg-green-600 px-5 py-2 text-white">
+        <button onClick={()=> setModal(true)} className="flex items-center gap-3 rounded-xl bg-green-600 px-5 py-2 text-white">
           <img src={logout} alt="" />
           Login
         </button>
