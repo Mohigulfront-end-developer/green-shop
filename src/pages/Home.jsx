@@ -29,7 +29,7 @@ const Home = () => {
         modules={[Pagination, Navigation, Autoplay]}
         className="mySwiper"
       >
-        <SwiperSlide className=" mt-5 flex select-none items-center gap-[300px] bg-[#F5F5F5] px-16">
+        <SwiperSlide className=" mt-5 flex select-none items-center gap-[200px] bg-[#F5F5F5] px-16">
           <div>
             <h3 className="text-[14px] font-medium uppercase text-[#3D3D3D]">
               Welcome to Greenshop
@@ -48,7 +48,7 @@ const Home = () => {
           </div>
           <img src={herImg} alt="bunch of plants" />
         </SwiperSlide>
-        <SwiperSlide className="mt-5 flex select-none items-center gap-[300px] bg-[#F5F5F5] px-16">
+        <SwiperSlide className="mt-5 flex select-none items-center gap-[200px] bg-[#F5F5F5] px-16">
           <div>
             <h3 className="text-[0.875rem] font-medium uppercase text-[#3D3D3D]">
               Welcome to Greenshop
@@ -67,7 +67,7 @@ const Home = () => {
           </div>
           <img src={herImg} alt="bunch of plants" />
         </SwiperSlide>
-        <SwiperSlide className="mt-5 select-none flex items-center gap-[300px] bg-[#F5F5F5] px-16">
+        <SwiperSlide className="mt-5 select-none flex items-center gap-[200px] bg-[#F5F5F5] px-16">
           <div>
             <h3 className="text-[0.875rem] font-medium uppercase text-[#3D3D3D]">
               Welcome to Greenshop

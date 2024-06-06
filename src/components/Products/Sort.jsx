@@ -4,7 +4,7 @@ import NativeSelect from "@mui/material/NativeSelect";
 const Sort = () => {
   return (
     <div>
-      <div className="container mx-auto flex items-center justify-between gap-[470px] px-4">
+      <div className="container flex items-center justify-between gap-[270px] ">
         <div className="text-[#3D3D3D] flex items-center justify-between gap-10 text-[18px] font-semibold">
           <button className="hover:border-b-2 hover:border-b-green-600 hover:text-green-600">
             All Plants

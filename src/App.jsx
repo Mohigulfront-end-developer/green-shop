@@ -12,7 +12,7 @@ import Checkout from "./pages/cart/Checkout";
 import Modal from "./components/Modal";
 import { useState } from "react";
 import { Track1 } from "./pages/Track/Track1";
-import { Track2 } from "./pages/Track/Track2";
+import Track2 from "./pages/Track/Track2";
 
 const App = () => {
   const [modal, setModal] = useState(false)

@@ -6,7 +6,7 @@ import Img3 from "../../../../public/assets/teapot.png";
 
 const FooterTop = () => {
   return (
-    <div className='container mx-auto px-4'>
+    <div className='container'>
       <div className="mt-[100px] bg-[#FBFBFB] py-5 flex justify-between items-center">
         <div className="px-8 border-r-2 border-tail-300 ">
           <img src={Img1} alt="plant logo" />
@@ -43,7 +43,7 @@ const FooterTop = () => {
           <div className="flex items-center mb-[40px]">
             <input
               type="text"
-              className="w-[270px] px-5 py-4 rounded-l-lg outline-none "
+              className="w-[250px] px-5 py-4 rounded-l-lg outline-none "
               placeholder="Enter your email address.."
             />
             <button className=" px-5 py-4 rounded-r-lg bg-green-600 text-white">

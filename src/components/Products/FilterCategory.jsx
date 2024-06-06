@@ -39,7 +39,7 @@ const FilterCategory = ({ setCount, setShow }) => {
 
   return (
     <div className="">
-      <div className="container mx-auto w-[320px] rounded-md bg-[#FBFBFB] px-10 py-[10px]">
+      <div className="container w-[320px] rounded-md bg-[#FBFBFB] px-5 py-[10px]">
         <h3 className="pb-[10px] text-[20px] font-semibold">Categories</h3>
         <div className="mb-[20px]">
           <li
@@ -155,7 +155,7 @@ const FilterCategory = ({ setCount, setShow }) => {
           </div>
         </div>
       </div>
-      <img src={SaleImg} alt="" className="mx-auto w-[320px] container" />
+      <img src={SaleImg} alt="" className="w-[330px] " />
     </div>
   );
 };

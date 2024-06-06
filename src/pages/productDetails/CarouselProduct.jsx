@@ -42,7 +42,7 @@ const CarouselProduct = () => {
             <div className="absolute inset-0 flex items-end justify-center bg-black bg-opacity-50 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
               <div className="mb-4 flex translate-y-full transform space-x-4 transition-all duration-300 group-hover:translate-y-0">
                 <Link
-                  to="/shop/cart/"
+                  to={"/shop/cart/"}
                   className="rounded-full bg-transparent p-2 text-white transition-colors hover:bg-white hover:text-green-600"
                 >
                   <MdOutlineShoppingCart size={30} />

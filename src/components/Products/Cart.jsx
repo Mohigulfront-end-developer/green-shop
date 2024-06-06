@@ -12,15 +12,15 @@ const Cart = ({ id, image, name, price }) => {
   const navigate = useNavigate()
 
   return (
-    <div className="my-[40px] flex h-[330px] w-[278px] cursor-pointer flex-col items-center gap-2 rounded-lg py-2 font-normal">
+    <div className="container my-[30px] flex h-[280px] w-[248px] cursor-pointer flex-col items-center gap-2 rounded-lg py-2 font-normal">
       <img
         src={image}
         alt=""
         onClick={() => navigate(`/shop/${id}`)}
-        className="h-[300px] w-[255px] bg-[#FBFBFB] transition-all duration-500 ease-in-out hover:scale-110 hover:cursor-grab hover:border-t-2 hover:border-t-green-600"
+        className="h-[265px] w-[215px] bg-[#FBFBFB] transition-all duration-500 ease-in-out hover:scale-110 hover:cursor-grab hover:border-t-2 hover:border-t-green-600"
       />
       <div className="flex flex-col gap-2">
-        <h2 className="mt-[10px] text-[20px]">{name.slice(0, 30)}</h2>
+        <h2 className="mt-[10px] text-[20px]">{name.slice(0, 20)}</h2>
         <div className="flex items-center gap-16">
           <p className="text-[20px] text-green-600">${price}</p>
           <div className="flex items-center justify-center gap-2">

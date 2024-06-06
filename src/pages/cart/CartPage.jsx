@@ -20,14 +20,14 @@ const CartPage = (product, state, className) => {
     // console.log('hi');
   };
   return (
-    <div className="container mx-auto px-4">
+    <div className="container">
       {" "}
       <div className="flex items-center gap-4 py-10">
         <NavLink to={"/"}>Home</NavLink>/<Link to={"/shop/1"}>Shop</Link>/
         <NavLink to={"/shop/cart"}>Shopping Cart</NavLink>
       </div>
       <div className="flex items-start justify-between gap-2">
-        <div className="w-[1000px]">
+        <div className="w-[900px]">
           <div className="grid grid-cols-5 border-b-2 border-b-gray-300 pb-5 text-[18px] text-[#3D3D3D]">
             <h2 className="">Products</h2>
             <h2 className="">Price</h2>
@@ -40,7 +40,7 @@ const CartPage = (product, state, className) => {
             {cart.map((item) => (
               <div
                 key={item.id}
-                className="mb-5 max-h-[80px] grid grid-cols-6 items-center bg-gray-50 pr-[20px]"
+                className="mb-5 max-h-[100px] grid grid-cols-6 items-center bg-gray-50 pr-[20px]"
               >
                 <div className="mr-[20px]">
                   <img

@@ -198,17 +198,17 @@ const Checkout = () => {
   };
 
   return (
-    <div className="container mx-auto px-4">
+    <div className="container">
       <div className="flex items-center gap-4 py-10 text-gray-600">
-        <NavLink to="/" className="hover:text-green-600">
+        <NavLink to={"/"} className="hover:text-green-600">
           Home
         </NavLink>
         <span>/</span>
-        <Link to="/shop/1" className="hover:text-green-600">
+        <Link to={"/shop/1"} className="hover:text-green-600">
           Shop
         </Link>
         <span>/</span>
-        <NavLink to="/cart/checkout" className="hover:text-green-600">
+        <NavLink to={"/cart/checkout"} className="hover:text-green-600">
           Checkout
         </NavLink>
       </div>

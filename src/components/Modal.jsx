@@ -60,12 +60,12 @@ const Modal = ({ modal, setModal }) => {
             </div>
 
             <div className="flex items-center justify-center">
-              <Link>
+              <Link to={"/"}>
                 <h4 className="border-r-2 border-gray-300 px-4 text-[20px] font-semibold hover:text-green-600">
                   Login
                 </h4>
               </Link>
-              <Link >
+              <Link to={"/register"}>
                 <h4 className="px-4 text-[20px] font-semibold text-[#3D3D3D] hover:text-green-600">
                   {" "}
                   Register
@@ -97,7 +97,7 @@ const Modal = ({ modal, setModal }) => {
                 <p className="text-sm text-red-500">{errors.password}</p>
               )}
               <div className="flex w-[400px] items-end justify-end">
-                <NavLink to="/" className="text-[15px] text-green-600">
+                <NavLink to={"/"} className="text-[15px] text-green-600">
                   Forgot Password?
                 </NavLink>
               </div>

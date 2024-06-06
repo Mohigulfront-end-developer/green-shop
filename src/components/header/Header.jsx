@@ -22,7 +22,7 @@ const Header = ({setModal}) => {
     };
 
   return (
-    <div className="mx-auto flex items-center justify-between border-b-2 border-gray-200 px-5 py-3 lg:container">
+    <div className="container flex items-center justify-between border-b-2 border-gray-200 py-3">
       <div className="">
         <a href="/">
           <img src={Logo} alt="logo" />

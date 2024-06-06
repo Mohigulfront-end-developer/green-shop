@@ -57,9 +57,9 @@ const ProductDetailsHeader = () => {
   };
 
   return (
-    <div className="container mx-auto">
+    <div className="container ">
       <div className="flex justify-between gap-10">
-        <div className="h-[480px] w-[300px]">
+        <div className="h-[350px] w-[300px]">
           {/* {data.map((item) => (
             <div className="" key={item.id}>
               <div

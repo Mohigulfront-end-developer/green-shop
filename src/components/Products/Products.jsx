@@ -14,7 +14,7 @@ const Products = () => {
 
   console.log(count);
   return (
-    <div className="container mx-auto px-4 my-[30px]">
+    <div className="my-[30px]">
       <div className="flex  mt-[20px]">
         <div className=" grid grid-cols-1 mr-[40px]">
           <FilterCategory setCount={setCount} setShow={setShow} />
@@ -28,8 +28,8 @@ const Products = () => {
           </div>
         </div>
       </div>
-      <div className="container mx-auto ">
-        <div className="flex justify-between items-center gap-16">
+      <div className="container ">
+        <div className="flex justify-between items-center gap-20">
           <div className="p-5 w-[800px] h-[250px] bg-[#FBFBFB] flex justify-between items-center rounded-md">
             <img src={Img1} alt="" className="mt-[-70px]  " />
             <div className="text-right">
